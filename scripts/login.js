@@ -21,6 +21,7 @@ let Login=async ()=>{
         }
         console.log(login_data)
         let login_jsondata=JSON.stringify(login_data);
+        console.log(login_jsondata);
         let logres=await fetch("http://localhost:5000/login",{
         method:'POST',
         body:login_jsondata,
@@ -29,13 +30,17 @@ let Login=async ()=>{
             }
         });
         let data=await logres.json();
-        console.log(data.message)
+        console.log(data)
        if(data.message=="Mobile No. not Registered "){
            alert("Please signup")
            window.location.href="signup.html"
        }
        if(data.message=="Wrong Password"){
            alert("Incorrect Password")
+       }
+       if(data.token){
+           localStorage.setItem("User_token", JSON.stringify(data.token));
+           window.location.href = "index.html"
        }
         // console.log(login_data.mobile,data.token)
         // getData(login_data.mobile,data.token);
