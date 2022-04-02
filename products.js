@@ -13,7 +13,7 @@ footer_content.innerHTML = footer();
 
 let parent = document.getElementById("prod_container");
 
-let url = "http://localhost:5000/hair";
+let url = "https://bebodywise-clone-api.herokuapp.com/hair";
 
 const data = await getData(url);
 
