@@ -71,6 +71,18 @@ body{
     border: none;
     display: flex;
 }
+#password{
+    margin-bottom: 11px;
+    width: 100%;
+    font-size: 14px;
+    background-color: white;
+    font-weight: 500;
+    color: #505050;
+    border: none;
+    padding: 14px 13px 13px 1px;
+    border: none;
+    display: flex;
+}
 #logbody2{
     font-size: 14px;
     font-weight: 500;
