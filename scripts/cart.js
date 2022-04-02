@@ -141,6 +141,15 @@ function calculations(el){
 }
 
 
-// function promocode(){
+var checkout = document.getElementById("cart_checkout");
 
-// }
+checkout.addEventListener("click", function(){
+    let token = localStorage.getItem("User_token");
+    if(token){
+        window.location.href = "checkout.html";
+    }
+    else{
+        alert("Please login to checkout");
+        window.location.href = "login.html"
+    }
+})
