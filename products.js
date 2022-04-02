@@ -13,7 +13,7 @@ footer_content.innerHTML = footer();
 
 let parent = document.getElementById("prod_container");
 
-let url = "http://ec2-3-95-58-230.compute-1.amazonaws.com:5000/hair";
+let url = "http://ec2-35-175-148-113.compute-1.amazonaws.com:5000/hair";
 
 const data = await getData(url);
 
@@ -54,10 +54,13 @@ let hair_cont = document.getElementById("hair_prod");
 hair_cont.addEventListener("click", hairprod);
 
 
-function hairprod(){
+async function hairprod(){
     
     parent.innerHTML = "";
-    let data = JSON.parse(localStorage.getItem("hair_products"));
+
+    let url = "http://ec2-35-175-148-113.compute-1.amazonaws.com:5000/hair";
+
+    let data = await getData(url);
 
     appendproducts(data, parent);
 
@@ -74,11 +77,13 @@ let skin_cont = document.getElementById("skin_prod");
 skin_cont.addEventListener("click", skinprod);
 
 
-function skinprod(){
+async function skinprod(){
 
     parent.innerHTML = "";
 
-    let data = JSON.parse(localStorage.getItem("skin_products"));
+    let url = "http://ec2-35-175-148-113.compute-1.amazonaws.com:5000/skin";
+
+    let data = await getData(url);
 
     appendproducts(data, parent);
 
@@ -93,11 +98,13 @@ function skinprod(){
 let weight_cont = document.getElementById("weight_prod");
 weight_cont.addEventListener("click", weightprod);
 
-function weightprod(){
+async function weightprod(){
 
     parent.innerHTML = "";
 
-    let data = JSON.parse(localStorage.getItem("weight_products"));
+    let url = "http://ec2-35-175-148-113.compute-1.amazonaws.com:5000/weight";
+
+    let data = await getData(url);
 
     appendproducts(data, parent);
 
@@ -112,11 +119,13 @@ function weightprod(){
 let pcos_cont = document.getElementById("pcos_prod");
 pcos_cont.addEventListener("click", pcosprod);
 
-function pcosprod(){
+async function pcosprod(){
 
     parent.innerHTML = "";
 
-    let data = JSON.parse(localStorage.getItem("pcos_products"));
+    let url = "http://ec2-35-175-148-113.compute-1.amazonaws.com:5000/pcos";
+
+    let data = await getData(url);
 
     appendproducts(data, parent);
 
@@ -131,11 +140,13 @@ function pcosprod(){
 let feminine_cont = document.getElementById("feminine_prod");
 feminine_cont.addEventListener("click", feminineprod);
 
-function feminineprod(){
+async function feminineprod(){
 
     parent.innerHTML = "";
 
-    let data = JSON.parse(localStorage.getItem("femine_products"));
+    let url = "http://ec2-35-175-148-113.compute-1.amazonaws.com:5000/femcare";
+
+    let data = await getData(url);
 
     appendproducts(data, parent);
 

@@ -24,7 +24,7 @@ document.getElementById("button").addEventListener("click", function(event){
          
             }
             register_data=JSON.stringify(register_data);
-            let res=await fetch("http://ec2-3-95-58-230.compute-1.amazonaws.com:5000/register",{
+            let res=await fetch("http://ec2-35-175-148-113.compute-1.amazonaws.com:5000/register",{
             method:'POST',
             body:register_data,
             headers:{
