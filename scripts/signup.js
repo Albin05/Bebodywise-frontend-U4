@@ -1,5 +1,4 @@
 
-
 document.getElementById("button").addEventListener("click", function(event){
     event.preventDefault()
     let pass = document.getElementById("password").value;
