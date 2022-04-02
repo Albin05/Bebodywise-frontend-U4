@@ -1,18 +1,14 @@
-// document.querySelector("form").addEventListener("submit", next);
-   
-//     function next(event){
-//         event.preventDefault();
-       
-        
-        
-//         Register();
-//         // localStorage.setItem("database",JSON.stringify(user));
-//         window.location.href = "index.html";
-//     }
+
 
 document.getElementById("button").addEventListener("click", function(event){
     event.preventDefault()
-    Register()
+    let pass = document.getElementById("password").value;
+    if(pass.length < 8 ){
+        alert("Password must have 8 characters")
+    }else{
+        Register()
+    }
+    
     
 })
 
