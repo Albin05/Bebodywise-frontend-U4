@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/signup.css">
+</head>
+<body>
+    <div id="container">
+        <div id="upcontainer">
+            <div id="loghead">
+                <div id="logheadleft">Signup</div>
+                <div id="logheadright" onclick="window.location.href='index.html'">X</div>
+            </div>
+            <form id="logbody">
+                <input type="text" id="first" class="input" placeholder="First Name">
+                <input type="text" id="last" class="input" placeholder="Last Name">
+                <input type="email" id="email" class="input" placeholder="Email ID">
+                <input type="password" id="password" placeholder="Enter Password">
+                <input type="number" id="input" placeholder="Enter Phone Number">
+                <!-- <button id="button" onclick="submit()">Next</button> -->
+                <button id="button" onclick="Register()">Submit</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
+<script src="./scripts/signup.js"></script>

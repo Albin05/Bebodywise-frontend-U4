@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="./styles/cart.css">
+</head>
+<body>
+    <div id="cart_container">
+        <h1>Cart</h1>
+        <div class="cart_toppart">
+            <div>
+                <div>Items</div>
+                <div class="cart_items"></div>
+            </div>
+            <div>
+                <div>Total</div>
+                <div class="cart_grand_total"></div>
+            </div>
+            <div id="cart_border" class="cart_green_text">
+                <div>Savings</div>
+                <div class="customer_savings"></div>
+            </div>
+        </div>
+        <div id="cart_applydiscount">
+            <h4>Apply Discount</h4>
+            <p class="cart_green_text">Get 20% cashback in your BW Purse on order delivery</p>
+            <div>Use Coupon Code</div>
+            <div>
+                <input type="text">
+                <div>Apply</div>
+            </div>
+        </div>
+        <!-- Append Cart Data -->
+        <div class="cart_prod_main_cont">
+            <h3>Products</h3>
+            <div id="cart_prod_cont"></div>
+        </div>
+        
+        
+        <div id="cart_summary">
+            <h3>Pricing Summary</h3>
+            <div>
+                <p>Subtotal</p>
+                <div id="cart_subtotal"></div>
+            </div>
+            <div class="cart_green_text">
+                <p>Discount</p>
+                <div class="customer_savings"></div>
+            </div>
+            <div class="cart_green_text">
+                <p>Shipping</p>
+                <div>Free!</div>
+            </div>
+            <div class="cart_border">
+                <h4>To Pay</h4>
+                <h4 class="cart_grand_total"></h4>
+            </div>
+            <div>
+                <div>Total Savings</div>
+                <div class="customer_savings"></div>
+            </div>
+        </div>
+        
+    </div>
+    <div id="cart_padding"></div>
+
+    <!-- Bottom Section  -->
+    <div id="cart_bottom">
+        <div id="cart_bottom_left">
+            <div class="cart_items"> </div>
+            <h2 class="cart_grand_total"></h2>
+        </div>
+        <div onclick="window.location.href='checkout.html'" class="cart_bottom_button"><h3>CHECKOUT</h3></div>
+    </div>
+    
+</body>
+</html>
+<script src="./scripts/cart.js"></script>

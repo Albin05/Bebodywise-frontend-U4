@@ -1,0 +1,1305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/index.css">
+</head>
+<body>
+
+    <!-- Navbar Section -->
+    <div id="nav_container"></div>
+
+    <!-- Body First row -->
+
+    <div id="main">
+        <div id="home_top">
+            <div id="home_upload">
+                <div class="head">
+                 <span class="title">Be Bodywise</span>
+                </div>
+ 
+                 <span class="subtitle">The wisdom to stop the experiments and get health & wellness solutions from experts</span>
+ 
+                 <div id="bookflex">
+                     <div id="booknow">
+                         <div class="begin-cont">
+                             <span class="begin">Begin your journey with a Free Doctor or Nutritionist Consult</span>
+                         </div>
+ 
+                         <button class="book_cons">Book Now</button>
+                     </div>
+                     <div class="bookimg">
+                         <img class="doctor_img" src="https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_200,c_limit/v1618984052/new%20home/Doc.png" alt="">
+                     </div>
+                 </div>
+             </div>
+            <div id="home_img">
+                <div id="image1">
+                    <img src="https://res.cloudinary.com/mosaic-wellness/image/upload/v1618391146/new%20home/image_24_3.png" alt="">
+                </div>
+                <div>
+                    <div id="image2">
+                        <img src="https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_180,c_limit/v1617890609/staging/New%20category%20page%20banner/hair_1.png" alt="">
+                    </div>
+                    <div id="image3">
+                        <img src="https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_180,c_limit/v1617890609/staging/New%20category%20page%20banner/weight.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Home Button-->
+    <div id="home_button">
+        <div id="hair_btn">
+            <button><img src="https://res.cloudinary.com/mosaic-wellness/image/upload/v1623302237/new%20home/Hair_Desktop_new.png"></button>
+        </div>
+        <div id="skin_btn">
+            <button><img src="https://res.cloudinary.com/mosaic-wellness/image/upload/v1639992700/new%20home/Skin_Blue_Desktop.png"></button>
+        </div>
+        <div id="nutrition_btn">
+            <button><img src="https://res.cloudinary.com/mosaic-wellness/image/upload/v1636470038/new%20home/Nutrition_Desktop_new.png"></button>
+        </div>
+        <div id="pcos_btn">
+            <button><img src="https://res.cloudinary.com/mosaic-wellness/image/upload/v1634886012/new%20home/UPDATED_PCOS/PCOS_Desktop_N2.png"></button>
+        </div>
+        <div id="intimate-btn">
+            <button><img src="https://res.cloudinary.com/mosaic-wellness/image/upload/v1623302237/new%20home/UTI_Desktop_new.png"></button>
+        </div>
+    </div>
+
+    <div id="prod_buttons">
+        <button id="hair_prod">Hair</button>
+        <button id="skin_prod">Skin</button>
+        <button id="weight_prod">Weight</button>
+        <button id="pcos_prod">PCOS</button>
+        <button id="feminine_prod" onclick="femprod()">Feiminine Care</button>
+    </div>
+    <!-- Hair Slider -->
+    <div class="shcontainer">
+        <section class="sproduct"> 
+            <button class="spre-btn"><img src="images/arrow.png" alt=""></button>
+            <button class="snxt-btn"><img src="images/arrow.png" alt=""></button>
+            <div class="sproduct-container">
+                <div class="sproduct-card">
+                    <div>
+                        <img class="sproduct_image" src="https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_800,c_limit/v1613991979/staging/products/hair-health-gummies/Carousel%20NEW/Hair_white-BG.jpg">
+                        <img class="sstar_image" src="https://cdn.discordapp.com/attachments/945524831842095116/945981157395300402/4starratee.png">
+                        <p>Biotin Hair Gummies (30)</p>
+                        <div style="display: flex;">
+                            <h3>₹499</h3>
+                            <s></s>
+                        </div>
+                        <p>FOR Hair growth &amp; strength</p>
+                        <p>WITH Biotin 5000 MCG, Multivitamins, Zinc</p>
+                        <button>Add to Cart</button>
+                    </div>
+                </div>
+                <div class="sproduct-card">
+                    <div>
+                        <img class="sproduct_image" src="https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_800,c_limit/v1620062959/staging/products/buying-options/Hair%20fall%20Control%20Starter%20Pack/New%20Carousel/Hair_fall_Control_Starter_Pack.jpg">
+                        <img class="sstar_image" src="https://cdn.discordapp.com/attachments/945524831842095116/945981157395300402/4starratee.png">
+                        <p>Hair Fall Control Starter Pack</p>
+                        <div style="display: flex;">
+                            <h3>₹849</h3>
+                            <s>949</s>
+                        </div>
+                        <p>FOR Hair Growth &amp; Strengthening</p>
+                        <p>WITH Onion Hair Oil, Biotin Shampoo</p>
+                        <button>Add to Cart</button>
+                    </div>
+                </div>
+                <div class="sproduct-card">
+                    <div>
+                        <img class="sproduct_image" src="https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_800,c_limit/v1640771666/staging/products/buying-options/Anti%20Dandruff%20Starter%20Pack/CAROUSEL/ADSP_1000x750.jpg">
+                        <img class="sstar_image" src="https://cdn.discordapp.com/attachments/945524831842095116/945981157604990976/4.5starratee.png">
+                        <p>Anti Dandruff Starter Pack</p>
+                        <div style="display: flex;">
+                            <h3>₹599</h3>
+                            <s>699</s>
+                        </div>
+                        <p>FOR Dandruff Control</p>
+                        <p>WITH 1% Keto Shampoo, Anti dandruff Lotion</p>
+                        <button>Add to Cart</button>
+                    </div>
+                </div>
+                <div class="sproduct-card">
+                    <div>
+                        <img class="sproduct_image" src="https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_800,c_limit/v1602319806/staging/products/Conditioner%20-pdp/1600x1200.png">
+                        <img class="sstar_image" src="https://cdn.discordapp.com/attachments/945524831842095116/945981157604990976/4.5starratee.png">
+                        <p>Deep Conditioner for Dry Hair</p>
+                        <div style="display: flex;">
+                            <h3>₹399</h3>
+                            <s>499</s>
+                        </div>
+                        <p>FOR Dry, damaged, dehydrated hair</p>
+                        <p>WITH Silk Protein, Biotin, Niacinamide, Shea Butter</p>
+                        <button>Add to Cart</button>
+                    </div>
+                </div>
+                <div class="sproduct-card">
+                    <div>
+                        <img class="sproduct_image" src="https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_800,c_limit/v1620047677/staging/products/buying-options/Hair%20Health%20Starter%20Pack/New%20Carousel/Hair_Health_Starter_Pack.jpg">
+                        <img class="sstar_image" src="https://cdn.discordapp.com/attachments/945524831842095116/945981157395300402/4starratee.png">
+                        <p>Hair Health Starter Pack</p>
+                        <div style="display: flex;">
+                            <h3>₹799</h3>
+                            <s>999</s>
+                        </div>
+                        <p>FOR Hair Health, Hair Growth</p>
+                        <p>WITH Biotin Shampoo, 5000 MCG Biotin Gummies (30)</p>
+                        <button>Add to Cart</button>
+                    </div>
+                </div>
+                <div class="sproduct-card">
+                    <div><img class="sproduct_image" src="https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_800,c_limit/v1604072938/staging/products/buying-options/Hair%20Restore%20Edition/Hair_Restore_CAT_PAGE.png">
+                        <img class="sstar_image" src="https://cdn.discordapp.com/attachments/945524831842095116/945981157395300402/4starratee.png">
+                        <p>Hair Restore Edition</p>
+                        <div style="display: flex;">
+                            <h3>₹1499</h3>
+                            <s>1946</s>
+                        </div>
+                        <p>FOR Hair Fall Control</p>
+                        <p>WITH Silk Protein Conditioner, Biotin Shampoo, Onion Hair Oil</p>
+                        <button>Add to Cart</button>
+                    </div>
+                </div>
+                <div class="sproduct-card">
+                    <div>
+                        <img class="sproduct_image" src="https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_800,c_limit/staging/products/hair-strengthening-serum/1_Product_Image_2.jpg">
+                        <img class="sstar_image" src="https://cdn.discordapp.com/attachments/945524831842095116/945981157604990976/4.5starratee.png">
+                        <p>Hair Strengthening Serum</p>
+                        <div style="display: flex;">
+                            <h3>₹449</h3>
+                            <s>499</s>
+                        </div>
+                        <p>FOR Frizzy, unruly hair</p>
+                        <p>WITH Argan oil, Olive oil, Sunflower oil</p>
+                        <button>Add to Cart</button>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+    </div> 
+
+    <!-- feelingconfused -->
+    <div class="feeling-main">
+        <div class="feeling-container">
+            <div class="feeling-cont">
+                <div class="feeling-img">
+                    <img src="https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto/v1611455725/Bodywise/Random/Rectangle_94.png" alt="">
+                </div>
+                <div class="feeling-content">
+                    <h2 class="feeling-h">Feeling confused?</h2>
+                    <p class="feeling-p">Take a quick assessment co-created with our expert doctors</p>
+                    <button class="feeling-btn">
+                        <a href="#"> Consult Doctor Now</a>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- how to work -->
+    
+    <div class="how-main-container">
+        <div class="how-container">
+            <h3>How It Works</h3>
+            <div class="how-flex">
+                <div class="how-row">
+                    <img src="images/01.png" alt="">
+                    <h4>Health Assessment</h4>
+                    <p>Let us get to know you by asking a few questions. We will lay out actionable steps for you to achieve your wellness goals.</p>
+                </div>
+                <div class="how-row">
+                    <img src="images/02.png" alt="">
+                   <h4>Online Doctor Consultation </h4>
+                   <p>Get connected with a doctor to discuss your health concerns and understand the treatment options. Find products that are right for your needs.</p>
+               </div>
+               <div class="how-row">
+                  <img src="images/03.png" alt="">
+                  <h4>Instant Product Delivery</h4>
+                  <p>We know you’re busy. We will get your treatment shipped to your door in 3-5 days.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- hair banner -->
+    <div id="main_organs_pink">
+        <div class="main_organs_text">
+        <h2 class="text_h2">Hair</h2>
+        <p class="text_p">Discover trichologist developed solutions that help address <br>your hair fall concerns and support further hair growth.</p>
+        <button class="text_button">View All ></button>
+      </div>
+        <div class="main_organs_image">
+            <img src="./images/pink.png" alt="">
+        </div>
+    </div>
+
+<!-- Hair Slider Again -->
+<div class="sh1container">
+    <section class="sproduct"> 
+        <button class="spre-btn"><img src="images/arrow.png" alt=""></button>
+        <button class="snxt-btn"><img src="images/arrow.png" alt=""></button>
+        <div class="sproduct-container">
+            <div class="sproduct-card">
+                <div>
+                    <img class="sproduct_image" src="https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_800,c_limit/v1613991979/staging/products/hair-health-gummies/Carousel%20NEW/Hair_white-BG.jpg">
+                    <img class="sstar_image" src="https://cdn.discordapp.com/attachments/945524831842095116/945981157395300402/4starratee.png">
+                    <p>Biotin Hair Gummies (30)</p>
+                    <div style="display: flex;">
+                        <h3>₹499</h3>
+                        <s></s>
+                    </div>
+                    <p>FOR Hair growth &amp; strength</p>
+                    <p>WITH Biotin 5000 MCG, Multivitamins, Zinc</p>
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+            <div class="sproduct-card">
+                <div>
+                    <img class="sproduct_image" src="https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_800,c_limit/v1620062959/staging/products/buying-options/Hair%20fall%20Control%20Starter%20Pack/New%20Carousel/Hair_fall_Control_Starter_Pack.jpg">
+                    <img class="sstar_image" src="https://cdn.discordapp.com/attachments/945524831842095116/945981157395300402/4starratee.png">
+                    <p>Hair Fall Control Starter Pack</p>
+                    <div style="display: flex;">
+                        <h3>₹849</h3>
+                        <s>949</s>
+                    </div>
+                    <p>FOR Hair Growth &amp; Strengthening</p>
+                    <p>WITH Onion Hair Oil, Biotin Shampoo</p>
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+            <div class="sproduct-card">
+                <div>
+                    <img class="sproduct_image" src="https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_800,c_limit/v1640771666/staging/products/buying-options/Anti%20Dandruff%20Starter%20Pack/CAROUSEL/ADSP_1000x750.jpg">
+                    <img class="sstar_image" src="https://cdn.discordapp.com/attachments/945524831842095116/945981157604990976/4.5starratee.png">
+                    <p>Anti Dandruff Starter Pack</p>
+                    <div style="display: flex;">
+                        <h3>₹599</h3>
+                        <s>699</s>
+                    </div>
+                    <p>FOR Dandruff Control</p>
+                    <p>WITH 1% Keto Shampoo, Anti dandruff Lotion</p>
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+            <div class="sproduct-card">
+                <div>
+                    <img class="sproduct_image" src="https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_800,c_limit/v1602319806/staging/products/Conditioner%20-pdp/1600x1200.png">
+                    <img class="sstar_image" src="https://cdn.discordapp.com/attachments/945524831842095116/945981157604990976/4.5starratee.png">
+                    <p>Deep Conditioner for Dry Hair</p>
+                    <div style="display: flex;">
+                        <h3>₹399</h3>
+                        <s>499</s>
+                    </div>
+                    <p>FOR Dry, damaged, dehydrated hair</p>
+                    <p>WITH Silk Protein, Biotin, Niacinamide, Shea Butter</p>
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+            <div class="sproduct-card">
+                <div>
+                    <img class="sproduct_image" src="https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_800,c_limit/v1620047677/staging/products/buying-options/Hair%20Health%20Starter%20Pack/New%20Carousel/Hair_Health_Starter_Pack.jpg">
+                    <img class="sstar_image" src="https://cdn.discordapp.com/attachments/945524831842095116/945981157395300402/4starratee.png">
+                    <p>Hair Health Starter Pack</p>
+                    <div style="display: flex;">
+                        <h3>₹799</h3>
+                        <s>999</s>
+                    </div>
+                    <p>FOR Hair Health, Hair Growth</p>
+                    <p>WITH Biotin Shampoo, 5000 MCG Biotin Gummies (30)</p>
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+            <div class="sproduct-card">
+                <div><img class="sproduct_image" src="https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_800,c_limit/v1604072938/staging/products/buying-options/Hair%20Restore%20Edition/Hair_Restore_CAT_PAGE.png">
+                    <img class="sstar_image" src="https://cdn.discordapp.com/attachments/945524831842095116/945981157395300402/4starratee.png">
+                    <p>Hair Restore Edition</p>
+                    <div style="display: flex;">
+                        <h3>₹1499</h3>
+                        <s>1946</s>
+                    </div>
+                    <p>FOR Hair Fall Control</p>
+                    <p>WITH Silk Protein Conditioner, Biotin Shampoo, Onion Hair Oil</p>
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+            <div class="sproduct-card">
+                <div>
+                    <img class="sproduct_image" src="https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_800,c_limit/staging/products/hair-strengthening-serum/1_Product_Image_2.jpg">
+                    <img class="sstar_image" src="https://cdn.discordapp.com/attachments/945524831842095116/945981157604990976/4.5starratee.png">
+                    <p>Hair Strengthening Serum</p>
+                    <div style="display: flex;">
+                        <h3>₹449</h3>
+                        <s>499</s>
+                    </div>
+                    <p>FOR Frizzy, unruly hair</p>
+                    <p>WITH Argan oil, Olive oil, Sunflower oil</p>
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+</div> 
+
+
+<!-- hair-care what is expert -->
+<div class="expect-main">
+    <h3>What to expect?</h3>
+    <div class="expect-container">
+        <div class="expect-1month hair-expect-1month">
+            <div class="months">
+                <div class="months1-img">
+                    <img src="https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_150,c_limit/v1625127372/staging/Home/Images/Calendar.png">
+                </div>
+                <div class="months1-3">
+                    <h6>1-2 months</h6>
+              
+                    <p>There will likely be no visible change in the first two months. Some people may shed slightly more hair strands than before. This is temporary and absolutely normal.</p>
+                </div>
+          </div>
+        </div>
+        <div class="expect-3months hair-expect-3months">
+            <div class="months">
+                <div class="months3-img">
+                    <img src="https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_150,c_limit/v1625127372/staging/Home/Images/Calendar.png">
+                </div>
+                <div class="months3-6">
+                    <h6>3-6 months</h6>
+              
+                    <p>At this point, it may become noticeable that hair loss has slowed, stopped, or in some cases maybe even reversed. Take a photo to track your progress.</p>
+                </div>
+          </div>
+        </div>
+        <div class="expect-6months hair-expect-6months">
+            <div class="months">
+                <div class="months6-img">
+                    <img src="https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_150,c_limit/v1625127372/staging/Home/Images/Calendar.png">
+                </div>
+                <div class="months3-6">
+                    <h6>After 6+ months</h6>
+              
+                    <p>By now, hair loss may have considerably slowed down or stopped, and some people may see signs of regrowth (usually at the crown of the head). Consistent daily treatment is required to maintain results. </p>
+                </div>
+          </div>
+        </div>   
+    </div>
+</div>
+
+<!-- Skin Banner -->
+<div id="main_organs_blue">
+    <div class="main_organs_text">
+    <h2 class="text_h2">Skin</h2>
+    <p class="text_p">Get clear, youthful looking skin with our dermatologist <br> developed solutions for your acne and aging concerns</p>
+    <button class="text_button">View All ></button>
+  </div>
+    <div class="main_organs_image">
+        <img src="./images/blue.png" alt="">
+    </div>
+</div>
+
+<!-- Skin Slider -->
+<div class="sscontainer">
+    <section class="sproduct"> 
+        <button class="spre-btn"><img src="images/arrow.png" alt=""></button>
+        <button class="snxt-btn"><img src="images/arrow.png" alt=""></button>
+        <div class="sproduct-container">
+            <div class="sproduct-card">
+                <div>
+                    <img class="sproduct_image" src="https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_800,c_limit/v1636804535/staging/products/skin-clarifying/0_BLUE/PRODUCT%20IMAGES/10NS_1000x750.jpg">
+                    <img class="sstar_image" src="https://cdn.discordapp.com/attachments/945524831842095116/945981157604990976/4.5starratee.png">
+                    <p>10% Niacinamide Serum</p>
+                    <div style="display: flex;">
+                        <h3>₹489</h3>
+                        <s>599</s>
+                    </div>
+                    <p>FOR Acne Marks, Hyperpigmentaion</p>
+                    <p>WITH 10% Niacinamide, 1% Zinc PCA</p>
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+            <div class="sproduct-card">
+                <div>
+                    <img class="sproduct_image" src="https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_800,c_limit/v1638891793/staging/products/skin-health-gummies/0_BLUE/Pack%20of%2060/CAROUSEL/0.png">
+                    <img class="sstar_image" src="https://cdn.discordapp.com/attachments/945524831842095116/945981157395300402/4starratee.png">
+                    <p>Skin Health Gummies (60)</p>
+                    <div style="display: flex;">
+                        <h3>₹999</h3>
+                        <s>1199</s>
+                    </div>
+                    <p>FOR Dull skin</p>
+                    <p>WITH Hyaluronic Acid, Curcumin, Vit C &amp; E</p>
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+            <div class="sproduct-card">
+                <div>
+                    <img class="sproduct_image" src="https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_800,c_limit/v1615635403/staging/products/adapalene-benzoyl/Carousel/Adapalene_BP.jpg">
+                    <img class="sstar_image" src="https://cdn.discordapp.com/attachments/945524831842095116/945981157604990976/4.5starratee.png">
+                    <p>Adapalene and Benzoyl Peroxide Gel</p>
+                    <div style="display: flex;">
+                        <h3>₹399</h3>
+                        <s></s>
+                    </div>
+                    <p>FOR Active Acne</p>
+                    <p>WITH 2.5% Benzoyl peroxide</p>
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+            <div class="sproduct-card">
+                <div>
+                    <img class="sproduct_image" src="https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_800,c_limit/v1643013958/staging/products/acne-control-wash/New%20blue%20images/0_BRUSH/PRODUCT%20IMAGES/SAFW_1000x750.jpg">
+                    <img class="sstar_image" src="https://cdn.discordapp.com/attachments/945524831842095116/945981157604990976/4.5starratee.png">
+                    <p>1%Salicylic Acid Foaming Facewash</p>
+                    <div style="display: flex;">
+                        <h3>₹349</h3>
+                        <s></s>
+                    </div>
+                    <p>FOR Acne prone skin</p>
+                    <p>WITH 1% Salicylic acid, 1% Glycolic acid</p>
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+            <div class="sproduct-card">
+                <div>
+                    <img class="sproduct_image" src="https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_800,c_limit/v1639571842/staging/products/collagen-powder/PRODUCT%20IMAGES/CP_1000x750.jpg">
+                    <img class="sstar_image" src="https://cdn.discordapp.com/attachments/945524831842095116/945981157604990976/4.5starratee.png">
+                    <p>Collagen Powder</p>
+                    <div style="display: flex;">
+                        <h3>₹999</h3>
+                        <s></s>
+                    </div>
+                    <p>FOR Fine Lines, Hydration</p>
+                    <p>WITH Glycine &amp; Proline, Omega 3, Multivitamins</p>
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+            <div class="sproduct-card">
+                <div>
+                    <img class="sproduct_image" src="https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_800,c_limit/v1622686002/staging/products/Pore%20Tightening%20Toner/Carousel/1600x1200.jpg">
+                    <img class="sstar_image" src="https://cdn.discordapp.com/attachments/945524831842095116/945981157604990976/4.5starratee.png">
+                    <p>Pore Tightening Toner</p>
+                    <div style="display: flex;">
+                        <h3>₹499</h3>
+                        <s></s>
+                    </div>
+                    <p>FOR Large open pores</p>
+                    <p>WITH 5% Lactic Acid, Arginine, Witch Hazel, Aloe Vera</p>
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+            <div class="sproduct-card">
+                <div>
+                    <img class="sproduct_image" src="https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_800,c_limit/v1643027363/staging/products/buying-options/clear%20skin%20edition/0_BLUE/PRODUCT%20IMAGES/TCSE_1000x750_N.jpg">
+                    <img class="sstar_image" src="https://cdn.discordapp.com/attachments/945524831842095116/945981157604990976/4.5starratee.png">
+                    <p>The Clear Skin Edition</p>
+                    <div style="display: flex;">
+                        <h3>₹1379</h3>
+                        <s>1849</s>
+                    </div>
+                    <p>FOR Active acne, Acne scars WITH 10%Niacinamide Serum, AHA-BHA Facewash, Broad SpectrumSPF 30</p>
+                    <button>Add to Cart</button>
+                </div>
+            </div>   
+        </div>
+    </section>
+</div> 
+
+ <!-- skin-care what is expert -->
+ <div class="expect-main">
+    <h3>What to expect?</h3>
+    <div class="expect-container">
+        <div class="expect-1month skin-expect-1month">
+            <div class="months">
+                <div class="months1-img">
+                    <img src="https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_150,c_limit/v1625127372/staging/Home/Images/Calendar.png">
+                </div>
+                <div class="months1-3">
+                    <h6>1-2 months</h6>
+              
+                    <p>There will likely be very few visible change in the first two months. Acne scars and hyperpigmentation may reduce and your skin texture will start improving.</p>
+                </div>
+          </div>
+        </div>
+        <div class="expect-3months skin-expect-3months">
+            <div class="months">
+                <div class="months3-img">
+                    <img src="https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_150,c_limit/v1625127372/staging/Home/Images/Calendar.png">
+                </div>
+                <div class="months3-6">
+                    <h6>3-6 months</h6>
+              
+                    <p>At this point, it may become noticeable that skin has started new skin cell production and there will be reduction in fine lines & wrinkles, number of pimples on your face.</p>
+                </div>
+          </div>
+        </div>
+        <div class="expect-6months skin-expect-6months">
+            <div class="months">
+                <div class="months6-img">
+                    <img src="https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_150,c_limit/v1625127372/staging/Home/Images/Calendar.png">
+                </div>
+                <div class="months3-6">
+                    <h6>After 6+ months</h6>
+              
+                    <p>By now, your skin may have healed completely. Aging signs and acne may have considerably slowed down or stopped, and some people may see a natural glow on their face. Consistent daily treatment is required to maintain results. </p>
+                </div>
+          </div>
+        </div> 
+    </div>
+</div>
+
+<!-- Nutrition Banner -->
+<div id="main_organs_green">
+    <div class="main_organs_text">
+    <h2 class="text_h2">Nutrition</h2>
+    <p class="text_p">Achieve your body goals with our nutritionist developed <br> supplemental solutions to aid your weight management <br> journey - while maintaining a healthy lifestyle.</p>
+    <button class="text_button">View All ></button>
+  </div>
+    <div class="main_organs_image" >
+        <img src="./images/green.png" alt="">
+    </div>
+</div>
+
+<!-- Nutrition Banner Below -->
+
+<div class="nutritionbannerBelow" >
+    <div class="sproduct-card">
+        <div>
+            <img class="sproduct_image" src="https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_800,c_limit/v1638891793/staging/products/skin-health-gummies/0_BLUE/Pack%20of%2060/CAROUSEL/0.png">
+            <img class="sstar_image" src="https://cdn.discordapp.com/attachments/945524831842095116/945981157395300402/4starratee.png">
+            <p>Skin Health Gummies (60)</p>
+            <div style="display: flex;">
+                <h3>₹999</h3>
+                <s>1199</s>
+            </div>
+            <p>FOR Dull skin</p>
+            <p>WITH Hyaluronic Acid, Curcumin, Vit C &amp; E</p>
+            <button>Add to Cart</button>
+        </div>
+    </div>
+    <div class="sproduct-card">
+        <div>
+            <img class="sproduct_image" src="https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_800,c_limit/v1615635403/staging/products/adapalene-benzoyl/Carousel/Adapalene_BP.jpg">
+            <img class="sstar_image" src="https://cdn.discordapp.com/attachments/945524831842095116/945981157604990976/4.5starratee.png">
+            <p>Adapalene and Benzoyl Peroxide Gel</p>
+            <div style="display: flex;">
+                <h3>₹399</h3>
+                <s></s>
+            </div>
+            <p>FOR Active Acne</p>
+            <p>WITH 2.5% Benzoyl peroxide</p>
+            <button>Add to Cart</button>
+        </div>
+    </div>
+    <div class="sproduct-card">
+        <div>
+            <img class="sproduct_image" src="https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_800,c_limit/v1643013958/staging/products/acne-control-wash/New%20blue%20images/0_BRUSH/PRODUCT%20IMAGES/SAFW_1000x750.jpg">
+            <img class="sstar_image" src="https://cdn.discordapp.com/attachments/945524831842095116/945981157604990976/4.5starratee.png">
+            <p>1%Salicylic Acid Foaming Facewash</p>
+            <div style="display: flex;">
+                <h3>₹349</h3>
+                <s></s>
+            </div>
+            <p>FOR Acne prone skin</p>
+            <p>WITH 1% Salicylic acid, 1% Glycolic acid</p>
+            <button>Add to Cart</button>
+        </div>
+    </div>
+</div>
+
+<!-- nutrition what is expert -->
+<div class="expect-main">
+    <h3>What to expect?</h3>
+    <div class="expect-container">
+        <div class="expect-1month nutrition-expect-1month">
+            <div class="months">
+                <div class="months1-img">
+                    <img src="https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_150,c_limit/v1625127372/staging/Home/Images/Calendar.png">
+                </div>
+                <div class="months1-3">
+                    <h6>1-2 months</h6>
+              
+                    <p>There will likely be very few visible change in the first two months. Your appetite may have reduced.</p>
+                </div>
+          </div>
+        </div>
+        <div class="expect-3months nutrition-expect-3months">
+            <div class="months">
+                <div class="months3-img">
+                    <img src="https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_150,c_limit/v1625127372/staging/Home/Images/Calendar.png">
+                </div>
+                <div class="months3-6">
+                    <h6>3-6 months</h6>
+              
+                    <p>At this point, it may become noticeable that body feels lighter. There may be reduction in acid reflux, bloating etc. Take a photo to track your progress.</p>
+                </div>
+          </div>
+        </div>
+        <div class="expect-6months nutrition-expect-6months">
+            <div class="months">
+                <div class="months6-img">
+                    <img src="https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_150,c_limit/v1625127372/staging/Home/Images/Calendar.png">
+                </div>
+                <div class="months3-6">
+                    <h6>After 6+ months</h6>
+              
+                    <p>By now, your appetite may have reduced while your eating habits may have changed as well. Consistent daily treatment is required to maintain results and increase the chance of maintaining your weight. </p>
+                </div>
+          </div>
+        </div>
+     </div>
+</div>
+
+
+<!-- PCOS Banner -->
+
+<div id="main_organs_mehroon">
+    <div class="main_organs_text">
+    <h2 class="text_h2">PCOS</h2>
+    <p class="text_p">Restore hormonal imbalance and manage bloating, period <br> cramps, stress and more with our period management <br> range.</p>
+    <button class="text_button">View All ></button>
+  </div>
+    <div class="main_organs_image">
+        <img src="./images/mehroon.png" alt="">
+    </div>
+</div>
+<!-- PCOS BANNER Below -->
+<div class="pcosbannerBelow" >
+    <div class="sproduct-card">
+        <div>
+            <img class="sproduct_image" src="https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_800,c_limit/v1638891793/staging/products/skin-health-gummies/0_BLUE/Pack%20of%2060/CAROUSEL/0.png">
+            <img class="sstar_image" src="https://cdn.discordapp.com/attachments/945524831842095116/945981157395300402/4starratee.png">
+            <p>Skin Health Gummies (60)</p>
+            <div style="display: flex;">
+                <h3>₹999</h3>
+                <s>1199</s>
+            </div>
+            <p>FOR Dull skin</p>
+            <p>WITH Hyaluronic Acid, Curcumin, Vit C &amp; E</p>
+            <button>Add to Cart</button>
+        </div>
+    </div>
+    <div class="sproduct-card">
+        <div>
+            <img class="sproduct_image" src="https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_800,c_limit/v1615635403/staging/products/adapalene-benzoyl/Carousel/Adapalene_BP.jpg">
+            <img class="sstar_image" src="https://cdn.discordapp.com/attachments/945524831842095116/945981157604990976/4.5starratee.png">
+            <p>Adapalene and Benzoyl Peroxide Gel</p>
+            <div style="display: flex;">
+                <h3>₹399</h3>
+                <s></s>
+            </div>
+            <p>FOR Active Acne</p>
+            <p>WITH 2.5% Benzoyl peroxide</p>
+            <button>Add to Cart</button>
+        </div>
+    </div>
+    <div class="sproduct-card">
+        <div>
+            <img class="sproduct_image" src="https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_800,c_limit/v1643013958/staging/products/acne-control-wash/New%20blue%20images/0_BRUSH/PRODUCT%20IMAGES/SAFW_1000x750.jpg">
+            <img class="sstar_image" src="https://cdn.discordapp.com/attachments/945524831842095116/945981157604990976/4.5starratee.png">
+            <p>1%Salicylic Acid Foaming Facewash</p>
+            <div style="display: flex;">
+                <h3>₹349</h3>
+                <s></s>
+            </div>
+            <p>FOR Acne prone skin</p>
+            <p>WITH 1% Salicylic acid, 1% Glycolic acid</p>
+            <button>Add to Cart</button>
+        </div>
+    </div>
+</div>
+
+ <!-- pcos what is expect -->
+ <div class="expect-main">
+    <h3>What to expect?</h3>
+    <div class="expect-container">
+        <div class="expect-3months pcos-expect-3months">
+            <div class="months">
+                <div class="months3-img">
+                    <img src="https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_150,c_limit/v1625127372/staging/Home/Images/Calendar.png">
+                </div>
+                <div class="months3-6">
+                    <h6>3-6 months</h6>
+              
+                    <p>At this point, it may become noticeable that your stress and anxiety levels have reduced. Some people may notice an improvement in energy level & digestion. Your body may feel lighter; you’re able to manage your weight better.</p>
+                </div>
+          </div>
+        </div>
+        <div class="expect-6months pcos-expect-6months">
+            <div class="months">
+                <div class="months6-img">
+                    <img src="https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_150,c_limit/v1625127372/staging/Home/Images/Calendar.png">
+                </div>
+                <div class="months3-6">
+                    <h6>After 6+ months</h6>
+              
+                    <p>By now, your hormonal imbalance may have reduced. Your periods are more regular than before. Consistent daily treatment is required to maintain results and manage PCOS symptoms and period cramps .</p>
+                </div>
+          </div>
+        </div>
+
+       
+    </div>
+</div>
+
+<!-- Feminine Banner -->
+<div id="main_organs_corona">
+    <div class="main_organs_text">
+    <h2 class="text_h2">Feminine Care</h2>
+    <p class="text_p">Manage imate hygiene, reduce UTI recurrence and <br> improve gut health with our intimate care product range.</p>
+    <button class="text_button">View All ></button>
+  </div>
+    <div class="main_organs_image">
+        <img src="./images/corona.png" alt="">
+    </div> 
+</div>
+
+
+
+
+<!-- Feminine banner below -->
+<div class="su1container">
+    <section class="sproduct"> 
+        <button class="spre-btn"><img src="images/arrow.png" alt=""></button>
+        <button class="snxt-btn"><img src="images/arrow.png" alt=""></button>
+        <div class="sproduct-container">
+            <div class="sproduct-card">
+                <div><img class="sproduct_image" src="https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_800,c_limit/v1617507488/staging/products/UTI%20Detection%20Strips/Carousel/1600x1200.jpg">
+                    <img class="sstar_image" src="https://cdn.discordapp.com/attachments/945524831842095116/945981157604990976/4.5starratee.png">
+                    <p>pH Balancing Intimate Wash</p>
+                    <div style="display: flex;">
+                        <h3>₹399</h3>
+                        <s></s>
+                    </div>
+                    <p>FOR UTI Detection</p>
+                    <p>WITH Detection Reagents for Leukocyte &amp; Nitrite</p>
+                    <button>Add to Cart</button></div>
+                </div>
+            <div class="sproduct-card">
+                <div>
+                    <img class="sproduct_image" src="https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_800,c_limit/v1622127981/staging/products/Chafing%20Guard%20Gel/Carousel/2.png">
+                    <img class="sstar_image" src="https://cdn.discordapp.com/attachments/945524831842095116/945981157604990976/4.5starratee.png">
+                    <p>Anti Rash and Chafing Gel</p>
+                    <div style="display: flex;">
+                        <h3>₹399</h3>
+                        <s></s>
+                    </div>
+                    <p>FOR Intimate area rashes &amp; chafing</p>
+                    <p>WITH Olive oil, Jojoba oil, Vitamin E and Glycerine</p>
+                    <button>Add to Cart</button></div>
+            </div>
+            <div class="sproduct-card">
+                <div>
+                    <img class="sproduct_image" src="https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_800,c_limit/v1622127929/staging/products/Intimate%20Powder/Carousel/1.png">
+                    <img class="sstar_image" src="https://cdn.discordapp.com/attachments/945524831842095116/945981157604990976/4.5starratee.png"><p>Clotrimazole Intimate Powder</p><div style="display: flex;"><h3>₹249</h3><s>349</s></div><p>FOR Intimate area sweat, infections</p><p>WITH 1% Clotrimazole, Zinc Oxide, Peppermint</p><button>Add to Cart</button>
+                </div>
+            </div>
+            <div class="sproduct-card">
+                <div>
+                    <img class="sproduct_image" src="https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_800,c_limit/v1614334593/staging/products/UTI%20shield%20capsule/Carousel/vitamic_C_serum_product_image.jpg">
+                    <img class="sstar_image" src="https://cdn.discordapp.com/attachments/945524831842095116/945981157604990976/4.5starratee.png">
+                    <p>pH Balancing Intimate Wash</p>
+                    <div style="display: flex;">
+                        <h3>₹599</h3>
+                        <s></s>
+                    </div>
+                    <p>FOR UTI Prevention</p>
+                    <p>WITH D - Mannose, Cranberry Extract, Hibiscus Extract, Pobiotics</p>
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+            <div class="sproduct-card">
+                <div><img class="sproduct_image" src="https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_800,c_limit/v1617507488/staging/products/UTI%20Detection%20Strips/Carousel/1600x1200.jpg">
+                     <img class="sstar_image" src="https://cdn.discordapp.com/attachments/945524831842095116/945981157604990976/4.5starratee.png">
+                     <p>pH Balancing Intimate Wash</p>
+                     <div style="display: flex;">
+                        <h3>₹399</h3><s></s>
+                    </div>
+                    <p>FOR UTI Detection</p>
+                     <p>WITH Detection Reagents for Leukocyte &amp; Nitrite</p>
+                     <button>Add to Cart</button>
+                </div>
+            </div>
+            <div class="sproduct-card">
+                <div><img class="sproduct_image" src="https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_800,c_limit/v1619692195/staging/products/Intimate%20Care%20Serum/Carousel/1000x750.jpg">
+                    <img class="sstar_image" src="https://cdn.discordapp.com/attachments/945524831842095116/945981157604990976/4.5starratee.png"><p>Intimate Care Serum</p><div style="display: flex;"><h3>₹399</h3><s>499</s></div><p>FOR Maintaining intimate hygiene</p><p>WITH 3% Manjakani Extract, 2% Niacinamide, Kojic Acid</p>
+                    <button>Add to Cart</button>
+                </div>
+            </div>
+            <div class="sproduct-card">
+                <div><img class="sproduct_image" src="https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_800,c_limit/v1641384277/staging/products/buying-options/complete%20hygiene%20combo/PRODUCT%20IMAGES/CHC_1000x750.jpg">
+                    <img class="sstar_image" src="https://cdn.discordapp.com/attachments/945524831842095116/945981157604990976/4.5starratee.png"><p>Complete Hygiene Combo</p><div style="display: flex;"><h3>₹599</h3><s>748</s></div><p>FOR Intimate area sweat, rashes</p>
+                    <p>WITH Clotrimazole Intimate Powder, Anti RashChafing Gel</p><button>Add to Cart</button>
+                </div>
+            </div>   
+        </div>
+    </section>
+</div>
+
+   <!-- fermine-care -->
+   <div class="expect-main">
+    <h3>What to expect?</h3>
+    <div class="expect-container">
+        <div class="expect-3months fermine-expect-3months">
+            <div class="months">
+                <div class="months3-img">
+                    <img src="https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_150,c_limit/v1625127372/staging/Home/Images/Calendar.png">
+                </div>
+                <div class="months3-6">
+                    <h6>3-6 months</h6>
+              
+                    <p>At this point, it may become noticeable that your stress and anxiety levels have reduced. Some people may notice an improvement in energy level & digestion. Your body may feel lighter; you’re able to manage your weight better.</p>
+                </div>
+          </div>
+        </div>
+        <div class="expect-6months fermine-expect-6months">
+            <div class="months">
+                <div class="months6-img">
+                    <img src="https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_150,c_limit/v1625127372/staging/Home/Images/Calendar.png">
+                </div>
+                <div class="months3-6">
+                    <h6>After 6+ months</h6>
+              
+                    <p>By now, your hormonal imbalance may have reduced. Your periods are more regular than before. Consistent daily treatment is required to maintain results and manage PCOS symptoms and period cramps .</p>
+                </div>
+          </div>
+        </div>
+   </div>
+</div>
+
+
+<!-- You Matter to us -->
+<div class="UmatterAlot">
+    <div><h2>You matter to us</h2></div>
+    <div class="umatterP"><p >Be Bodywise believes that your health and wellness should be in your control.
+         With the right guidance, you can conquer the chaos, on your terms.</p></div>
+    <div>
+        <div class="dhcontainer">
+            <section class="dhproduct"> 
+                <button class="dhpre-btn"><img src="images/arrow.png" alt="" ></button>
+                <button class="dhnxt-btn"><img src="images/arrow.png" alt=""></button>
+                <div class="dhproduct-container">
+                    <div class="dhproduct-card">
+                        <div>
+                            <img class="dhproduct_image" src="https://cdn.discordapp.com/attachments/945524831842095116/946727320448802856/doctor5.png">
+                        </div>
+                    </div>
+                    <div class="dhproduct-card">
+                        <div>
+                            <img class="dhproduct_image" src="https://cdn.discordapp.com/attachments/945524831842095116/946725318046154762/doctor1.png">
+                        </div>
+                    </div>
+                    <div class="dhproduct-card">
+                        <div>
+                            <img class="dhproduct_image" src="https://cdn.discordapp.com/attachments/945524831842095116/946725318222303232/doctor2.png">
+                        </div>
+                    </div>
+                  
+                    <div class="dhproduct-card">
+                        <div>
+                            <img class="dhproduct_image" src="https://cdn.discordapp.com/attachments/945524831842095116/946725318759166052/doctor4.png">
+                        </div>
+                    </div>    
+                </div>
+            </section>
+        </div>
+    </div>
+</div>
+
+<!-- Meet Expert -->
+<div class="MeetExpert">
+    <div><h2>Meet Our Experts</h2></div>
+    <div class="decontainer">
+        <section class="deproduct"> 
+            <button class="depre-btn"><img src="images/arrow.png" alt="" ></button>
+            <button class="denxt-btn"><img src="images/arrow.png" alt=""></button>
+            <div class="deproduct-container">
+                <div class="deproduct-card">
+                    <div>
+                        <img class="deproduct_image" src="https://cdn.discordapp.com/attachments/945524831842095116/946738103429759006/de1.png">
+                    </div>
+                </div>
+                <div class="deproduct-card">
+                    <div>
+                        <img class="deproduct_image" src="https://cdn.discordapp.com/attachments/945524831842095116/946738103752740905/de2.png">
+                    </div>
+                </div>
+                <div class="deproduct-card">
+                    <div>
+                        <img class="deproduct_image" src="https://cdn.discordapp.com/attachments/945524831842095116/946738104058929172/de3.png">
+                    </div>
+                </div>
+              
+                <div class="deproduct-card">
+                    <div>
+                        <img class="deproduct_image" src="https://cdn.discordapp.com/attachments/945524831842095116/946738104281219142/de4.png">
+                    </div>
+                </div>    
+            </div>
+        </section>
+    </div>
+</div>
+
+<!-- customer review -->
+
+<div class="CustomerReview">
+    <div><h2>Customer Reviews</h2></div>
+    <div class="customercontainer">
+        <section class="customerproduct"> 
+            <button class="custpre-btn"><img src="images/arrow.png" alt="" ></button>
+            <button class="custnxt-btn"><img src="images/arrow.png" alt=""></button>
+
+
+            <div class="customerpro-container">
+                <div class="customerpro-card">
+                    <div>
+                        <div class="customer-main-container customer-background1">
+                            <div class="customer-skin">
+                                <div class="customer-skin-img">
+                                    <img src="https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_150,c_limit/v1606489107/new%20home/reviews2.png" alt="">
+                                </div>
+                                <div class="customer-skin-p"><p>Clear Skin Edition</p></div>
+                            </div>
+                            <div class="customer-stars">
+                                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" color="#E4AE2C"  height="4em" width="1em" xmlns="http://www.w3.org/2000/svg" style="color: rgb(228, 174, 44);"><path d="M463 192H315.9L271.2 58.6C269 52.1 262.9 48 256 48s-13 4.1-15.2 10.6L196.1 192H48c-8.8 0-16 7.2-16 16 0 .9.1 1.9.3 2.7.2 3.5 1.8 7.4 6.7 11.3l120.9 85.2-46.4 134.9c-2.3 6.5 0 13.8 5.5 18 2.9 2.1 5.6 3.9 9 3.9 3.3 0 7.2-1.7 10-3.6l118-84.1 118 84.1c2.8 2 6.7 3.6 10 3.6 3.4 0 6.1-1.7 8.9-3.9 5.6-4.2 7.8-11.4 5.5-18L352 307.2l119.9-86 2.9-2.5c2.6-2.8 5.2-6.6 5.2-10.7 0-8.8-8.2-16-17-16z"></path></svg>
+                                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" color="#E4AE2C"  height="4em" width="1em" xmlns="http://www.w3.org/2000/svg" style="color: rgb(228, 174, 44);"><path d="M463 192H315.9L271.2 58.6C269 52.1 262.9 48 256 48s-13 4.1-15.2 10.6L196.1 192H48c-8.8 0-16 7.2-16 16 0 .9.1 1.9.3 2.7.2 3.5 1.8 7.4 6.7 11.3l120.9 85.2-46.4 134.9c-2.3 6.5 0 13.8 5.5 18 2.9 2.1 5.6 3.9 9 3.9 3.3 0 7.2-1.7 10-3.6l118-84.1 118 84.1c2.8 2 6.7 3.6 10 3.6 3.4 0 6.1-1.7 8.9-3.9 5.6-4.2 7.8-11.4 5.5-18L352 307.2l119.9-86 2.9-2.5c2.6-2.8 5.2-6.6 5.2-10.7 0-8.8-8.2-16-17-16z"></path></svg>
+                                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" color="#E4AE2C"  height="4em" width="1em" xmlns="http://www.w3.org/2000/svg" style="color: rgb(228, 174, 44);"><path d="M463 192H315.9L271.2 58.6C269 52.1 262.9 48 256 48s-13 4.1-15.2 10.6L196.1 192H48c-8.8 0-16 7.2-16 16 0 .9.1 1.9.3 2.7.2 3.5 1.8 7.4 6.7 11.3l120.9 85.2-46.4 134.9c-2.3 6.5 0 13.8 5.5 18 2.9 2.1 5.6 3.9 9 3.9 3.3 0 7.2-1.7 10-3.6l118-84.1 118 84.1c2.8 2 6.7 3.6 10 3.6 3.4 0 6.1-1.7 8.9-3.9 5.6-4.2 7.8-11.4 5.5-18L352 307.2l119.9-86 2.9-2.5c2.6-2.8 5.2-6.6 5.2-10.7 0-8.8-8.2-16-17-16z"></path></svg>
+                                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" color="#E4AE2C"  height="4em" width="1em" xmlns="http://www.w3.org/2000/svg" style="color: rgb(228, 174, 44);"><path d="M463 192H315.9L271.2 58.6C269 52.1 262.9 48 256 48s-13 4.1-15.2 10.6L196.1 192H48c-8.8 0-16 7.2-16 16 0 .9.1 1.9.3 2.7.2 3.5 1.8 7.4 6.7 11.3l120.9 85.2-46.4 134.9c-2.3 6.5 0 13.8 5.5 18 2.9 2.1 5.6 3.9 9 3.9 3.3 0 7.2-1.7 10-3.6l118-84.1 118 84.1c2.8 2 6.7 3.6 10 3.6 3.4 0 6.1-1.7 8.9-3.9 5.6-4.2 7.8-11.4 5.5-18L352 307.2l119.9-86 2.9-2.5c2.6-2.8 5.2-6.6 5.2-10.7 0-8.8-8.2-16-17-16z"></path></svg>
+                               
+                            
+                            </div>
+                            <div class="customer-heading">
+                                <span >Highly Effective</span>
+                                <p>Love my skin now! Thank you Be Bodywise. This kit is all you need in for your skin care routine. The 4 step regime is a wonderful way to mantain healthy andclear skin. My skin is prone to acne and I constantly struggle with breakouts. The acne face wash and gel have worked amazingly and the skin clarifying serum makes my skin so smooth.</p>
+                            </div>
+                           
+                            <div class="customer-details">
+                                <p>Arpita Singh, Age 27</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="customerpro-card">
+                    <div>
+                        <div class="customer-main-container customer-background2">
+                            <div class="customer-skin">
+                                <div class="customer-skin-img">
+                                    <img src="https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_150,c_limit/v1606486889/new%20home/Hair-_gummies-_600X600.png" alt="">
+                                </div>
+                                <div class="customer-skin-p"><p>Hair Health Gummies</p></div>
+                            </div>
+                            <div class="customer-stars">
+                                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" color="#E4AE2C"  height="4em" width="1em" xmlns="http://www.w3.org/2000/svg" style="color: rgb(228, 174, 44);"><path d="M463 192H315.9L271.2 58.6C269 52.1 262.9 48 256 48s-13 4.1-15.2 10.6L196.1 192H48c-8.8 0-16 7.2-16 16 0 .9.1 1.9.3 2.7.2 3.5 1.8 7.4 6.7 11.3l120.9 85.2-46.4 134.9c-2.3 6.5 0 13.8 5.5 18 2.9 2.1 5.6 3.9 9 3.9 3.3 0 7.2-1.7 10-3.6l118-84.1 118 84.1c2.8 2 6.7 3.6 10 3.6 3.4 0 6.1-1.7 8.9-3.9 5.6-4.2 7.8-11.4 5.5-18L352 307.2l119.9-86 2.9-2.5c2.6-2.8 5.2-6.6 5.2-10.7 0-8.8-8.2-16-17-16z"></path></svg>
+                                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" color="#E4AE2C"  height="4em" width="1em" xmlns="http://www.w3.org/2000/svg" style="color: rgb(228, 174, 44);"><path d="M463 192H315.9L271.2 58.6C269 52.1 262.9 48 256 48s-13 4.1-15.2 10.6L196.1 192H48c-8.8 0-16 7.2-16 16 0 .9.1 1.9.3 2.7.2 3.5 1.8 7.4 6.7 11.3l120.9 85.2-46.4 134.9c-2.3 6.5 0 13.8 5.5 18 2.9 2.1 5.6 3.9 9 3.9 3.3 0 7.2-1.7 10-3.6l118-84.1 118 84.1c2.8 2 6.7 3.6 10 3.6 3.4 0 6.1-1.7 8.9-3.9 5.6-4.2 7.8-11.4 5.5-18L352 307.2l119.9-86 2.9-2.5c2.6-2.8 5.2-6.6 5.2-10.7 0-8.8-8.2-16-17-16z"></path></svg>
+                                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" color="#E4AE2C"  height="4em" width="1em" xmlns="http://www.w3.org/2000/svg" style="color: rgb(228, 174, 44);"><path d="M463 192H315.9L271.2 58.6C269 52.1 262.9 48 256 48s-13 4.1-15.2 10.6L196.1 192H48c-8.8 0-16 7.2-16 16 0 .9.1 1.9.3 2.7.2 3.5 1.8 7.4 6.7 11.3l120.9 85.2-46.4 134.9c-2.3 6.5 0 13.8 5.5 18 2.9 2.1 5.6 3.9 9 3.9 3.3 0 7.2-1.7 10-3.6l118-84.1 118 84.1c2.8 2 6.7 3.6 10 3.6 3.4 0 6.1-1.7 8.9-3.9 5.6-4.2 7.8-11.4 5.5-18L352 307.2l119.9-86 2.9-2.5c2.6-2.8 5.2-6.6 5.2-10.7 0-8.8-8.2-16-17-16z"></path></svg>
+                                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" color="#E4AE2C"  height="4em" width="1em" xmlns="http://www.w3.org/2000/svg" style="color: rgb(228, 174, 44);"><path d="M463 192H315.9L271.2 58.6C269 52.1 262.9 48 256 48s-13 4.1-15.2 10.6L196.1 192H48c-8.8 0-16 7.2-16 16 0 .9.1 1.9.3 2.7.2 3.5 1.8 7.4 6.7 11.3l120.9 85.2-46.4 134.9c-2.3 6.5 0 13.8 5.5 18 2.9 2.1 5.6 3.9 9 3.9 3.3 0 7.2-1.7 10-3.6l118-84.1 118 84.1c2.8 2 6.7 3.6 10 3.6 3.4 0 6.1-1.7 8.9-3.9 5.6-4.2 7.8-11.4 5.5-18L352 307.2l119.9-86 2.9-2.5c2.6-2.8 5.2-6.6 5.2-10.7 0-8.8-8.2-16-17-16z"></path></svg>
+                                
+                           
+                            </div>
+                            <div class="customer-heading">
+                                <span >Best Product</span>
+                                <p>My hairfall was reduced massively in almost 2.5 months of consuming the gummies. That's when I knew it was working. I ordered my 3rd pack, I'm not even kidding. My nails grew faster than usual as well.. haha. It has also boosted new hair growth. I can say I'm really happy with this product. Thank you</p>
+                            </div>
+                           
+                            <div class="customer-details">
+                                <p>Rupal Kumari, Age 31</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="customerpro-card">
+                    <div>
+                        <div class="customer-main-container customer-background3">
+                            <div class="customer-skin">
+                                <div class="customer-skin-img">
+                                    <img src="https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_150,c_limit/v1606488043/new%20home/Weight-Gummies_600x600.png" alt="">
+                                </div>
+                                <div class="customer-skin-p"><p>Active Assist Gummies</p></div>
+                            </div>
+                            <div class="customer-stars">
+                                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" color="#E4AE2C"  height="4em" width="1em" xmlns="http://www.w3.org/2000/svg" style="color: rgb(228, 174, 44);"><path d="M463 192H315.9L271.2 58.6C269 52.1 262.9 48 256 48s-13 4.1-15.2 10.6L196.1 192H48c-8.8 0-16 7.2-16 16 0 .9.1 1.9.3 2.7.2 3.5 1.8 7.4 6.7 11.3l120.9 85.2-46.4 134.9c-2.3 6.5 0 13.8 5.5 18 2.9 2.1 5.6 3.9 9 3.9 3.3 0 7.2-1.7 10-3.6l118-84.1 118 84.1c2.8 2 6.7 3.6 10 3.6 3.4 0 6.1-1.7 8.9-3.9 5.6-4.2 7.8-11.4 5.5-18L352 307.2l119.9-86 2.9-2.5c2.6-2.8 5.2-6.6 5.2-10.7 0-8.8-8.2-16-17-16z"></path></svg>
+                                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" color="#E4AE2C"  height="4em" width="1em" xmlns="http://www.w3.org/2000/svg" style="color: rgb(228, 174, 44);"><path d="M463 192H315.9L271.2 58.6C269 52.1 262.9 48 256 48s-13 4.1-15.2 10.6L196.1 192H48c-8.8 0-16 7.2-16 16 0 .9.1 1.9.3 2.7.2 3.5 1.8 7.4 6.7 11.3l120.9 85.2-46.4 134.9c-2.3 6.5 0 13.8 5.5 18 2.9 2.1 5.6 3.9 9 3.9 3.3 0 7.2-1.7 10-3.6l118-84.1 118 84.1c2.8 2 6.7 3.6 10 3.6 3.4 0 6.1-1.7 8.9-3.9 5.6-4.2 7.8-11.4 5.5-18L352 307.2l119.9-86 2.9-2.5c2.6-2.8 5.2-6.6 5.2-10.7 0-8.8-8.2-16-17-16z"></path></svg>
+                                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" color="#E4AE2C"  height="4em" width="1em" xmlns="http://www.w3.org/2000/svg" style="color: rgb(228, 174, 44);"><path d="M463 192H315.9L271.2 58.6C269 52.1 262.9 48 256 48s-13 4.1-15.2 10.6L196.1 192H48c-8.8 0-16 7.2-16 16 0 .9.1 1.9.3 2.7.2 3.5 1.8 7.4 6.7 11.3l120.9 85.2-46.4 134.9c-2.3 6.5 0 13.8 5.5 18 2.9 2.1 5.6 3.9 9 3.9 3.3 0 7.2-1.7 10-3.6l118-84.1 118 84.1c2.8 2 6.7 3.6 10 3.6 3.4 0 6.1-1.7 8.9-3.9 5.6-4.2 7.8-11.4 5.5-18L352 307.2l119.9-86 2.9-2.5c2.6-2.8 5.2-6.6 5.2-10.7 0-8.8-8.2-16-17-16z"></path></svg>
+                                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" color="#E4AE2C"  height="4em" width="1em" xmlns="http://www.w3.org/2000/svg" style="color: rgb(228, 174, 44);"><path d="M463 192H315.9L271.2 58.6C269 52.1 262.9 48 256 48s-13 4.1-15.2 10.6L196.1 192H48c-8.8 0-16 7.2-16 16 0 .9.1 1.9.3 2.7.2 3.5 1.8 7.4 6.7 11.3l120.9 85.2-46.4 134.9c-2.3 6.5 0 13.8 5.5 18 2.9 2.1 5.6 3.9 9 3.9 3.3 0 7.2-1.7 10-3.6l118-84.1 118 84.1c2.8 2 6.7 3.6 10 3.6 3.4 0 6.1-1.7 8.9-3.9 5.6-4.2 7.8-11.4 5.5-18L352 307.2l119.9-86 2.9-2.5c2.6-2.8 5.2-6.6 5.2-10.7 0-8.8-8.2-16-17-16z"></path></svg>
+                               
+                              
+                            </div>
+                            <div class="customer-heading">
+                                <span >Highly recommend these</span>
+                                <p>I decided to give this product a fighting chance, used it for 2 months. I can definitely notice that my metabolism has improved and gut health couldn't have been better... I like how they send a note explaining how every ingredient is natural and has no added colours or preservatives!</p>
+                            </div>
+                           
+                            <div class="customer-details">
+                                <p>Ahilya Gandhi, Age 28</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              
+                <div class="customerpro-card">
+                    <div>
+                        <div class="customer-main-container customer-background4">
+                            <div class="customer-skin">
+                                <div class="customer-skin-img">
+                                    <img src="https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_150,c_limit/v1606489107/new%20home/reviews2.png" alt="">
+                                </div>
+                                <div class="customer-skin-p"><p>Acne Scar Control Advanced Pack</p></div>
+                            </div>
+                            <div class="customer-stars">
+                                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" color="#E4AE2C"  height="4em" width="1em" xmlns="http://www.w3.org/2000/svg" style="color: rgb(228, 174, 44);"><path d="M463 192H315.9L271.2 58.6C269 52.1 262.9 48 256 48s-13 4.1-15.2 10.6L196.1 192H48c-8.8 0-16 7.2-16 16 0 .9.1 1.9.3 2.7.2 3.5 1.8 7.4 6.7 11.3l120.9 85.2-46.4 134.9c-2.3 6.5 0 13.8 5.5 18 2.9 2.1 5.6 3.9 9 3.9 3.3 0 7.2-1.7 10-3.6l118-84.1 118 84.1c2.8 2 6.7 3.6 10 3.6 3.4 0 6.1-1.7 8.9-3.9 5.6-4.2 7.8-11.4 5.5-18L352 307.2l119.9-86 2.9-2.5c2.6-2.8 5.2-6.6 5.2-10.7 0-8.8-8.2-16-17-16z"></path></svg>
+                                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" color="#E4AE2C"  height="4em" width="1em" xmlns="http://www.w3.org/2000/svg" style="color: rgb(228, 174, 44);"><path d="M463 192H315.9L271.2 58.6C269 52.1 262.9 48 256 48s-13 4.1-15.2 10.6L196.1 192H48c-8.8 0-16 7.2-16 16 0 .9.1 1.9.3 2.7.2 3.5 1.8 7.4 6.7 11.3l120.9 85.2-46.4 134.9c-2.3 6.5 0 13.8 5.5 18 2.9 2.1 5.6 3.9 9 3.9 3.3 0 7.2-1.7 10-3.6l118-84.1 118 84.1c2.8 2 6.7 3.6 10 3.6 3.4 0 6.1-1.7 8.9-3.9 5.6-4.2 7.8-11.4 5.5-18L352 307.2l119.9-86 2.9-2.5c2.6-2.8 5.2-6.6 5.2-10.7 0-8.8-8.2-16-17-16z"></path></svg>
+                                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" color="#E4AE2C"  height="4em" width="1em" xmlns="http://www.w3.org/2000/svg" style="color: rgb(228, 174, 44);"><path d="M463 192H315.9L271.2 58.6C269 52.1 262.9 48 256 48s-13 4.1-15.2 10.6L196.1 192H48c-8.8 0-16 7.2-16 16 0 .9.1 1.9.3 2.7.2 3.5 1.8 7.4 6.7 11.3l120.9 85.2-46.4 134.9c-2.3 6.5 0 13.8 5.5 18 2.9 2.1 5.6 3.9 9 3.9 3.3 0 7.2-1.7 10-3.6l118-84.1 118 84.1c2.8 2 6.7 3.6 10 3.6 3.4 0 6.1-1.7 8.9-3.9 5.6-4.2 7.8-11.4 5.5-18L352 307.2l119.9-86 2.9-2.5c2.6-2.8 5.2-6.6 5.2-10.7 0-8.8-8.2-16-17-16z"></path></svg>
+                                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" color="#E4AE2C"  height="4em" width="1em" xmlns="http://www.w3.org/2000/svg" style="color: rgb(228, 174, 44);"><path d="M463 192H315.9L271.2 58.6C269 52.1 262.9 48 256 48s-13 4.1-15.2 10.6L196.1 192H48c-8.8 0-16 7.2-16 16 0 .9.1 1.9.3 2.7.2 3.5 1.8 7.4 6.7 11.3l120.9 85.2-46.4 134.9c-2.3 6.5 0 13.8 5.5 18 2.9 2.1 5.6 3.9 9 3.9 3.3 0 7.2-1.7 10-3.6l118-84.1 118 84.1c2.8 2 6.7 3.6 10 3.6 3.4 0 6.1-1.7 8.9-3.9 5.6-4.2 7.8-11.4 5.5-18L352 307.2l119.9-86 2.9-2.5c2.6-2.8 5.2-6.6 5.2-10.7 0-8.8-8.2-16-17-16z"></path></svg>
+                                
+                              
+                            </div>
+                            <div class="customer-heading">
+                                <span >Visible Results</span>
+                                <p>I have been using this kit for almost a month now. I can see a clear difference in my skin tone.. my sister told me that my dark spots and acne scars have reduced!!</p>
+                            </div>
+                           
+                            <div class="customer-details">
+                                <p>Pooja Dhillon, Age 25</p>
+                            </div>
+                        </div> 
+                    </div>
+                </div>    
+                 <div class="customerpro-card">
+                    <div>
+                        <div class="customer-main-container customer-background5">
+                            <div class="customer-skin">
+                                <div class="customer-skin-img">
+                                    <img src="https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_150,c_limit/v1606488744/new%20home/reviews.png" alt="">
+                                </div>
+                                <div class="customer-skin-p"><p>Hair Restore Edition</p></div>
+                            </div>
+                            <div class="customer-stars">
+                                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" color="#E4AE2C"  height="4em" width="1em" xmlns="http://www.w3.org/2000/svg" style="color: rgb(228, 174, 44);"><path d="M463 192H315.9L271.2 58.6C269 52.1 262.9 48 256 48s-13 4.1-15.2 10.6L196.1 192H48c-8.8 0-16 7.2-16 16 0 .9.1 1.9.3 2.7.2 3.5 1.8 7.4 6.7 11.3l120.9 85.2-46.4 134.9c-2.3 6.5 0 13.8 5.5 18 2.9 2.1 5.6 3.9 9 3.9 3.3 0 7.2-1.7 10-3.6l118-84.1 118 84.1c2.8 2 6.7 3.6 10 3.6 3.4 0 6.1-1.7 8.9-3.9 5.6-4.2 7.8-11.4 5.5-18L352 307.2l119.9-86 2.9-2.5c2.6-2.8 5.2-6.6 5.2-10.7 0-8.8-8.2-16-17-16z"></path></svg>
+                                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" color="#E4AE2C"  height="4em" width="1em" xmlns="http://www.w3.org/2000/svg" style="color: rgb(228, 174, 44);"><path d="M463 192H315.9L271.2 58.6C269 52.1 262.9 48 256 48s-13 4.1-15.2 10.6L196.1 192H48c-8.8 0-16 7.2-16 16 0 .9.1 1.9.3 2.7.2 3.5 1.8 7.4 6.7 11.3l120.9 85.2-46.4 134.9c-2.3 6.5 0 13.8 5.5 18 2.9 2.1 5.6 3.9 9 3.9 3.3 0 7.2-1.7 10-3.6l118-84.1 118 84.1c2.8 2 6.7 3.6 10 3.6 3.4 0 6.1-1.7 8.9-3.9 5.6-4.2 7.8-11.4 5.5-18L352 307.2l119.9-86 2.9-2.5c2.6-2.8 5.2-6.6 5.2-10.7 0-8.8-8.2-16-17-16z"></path></svg>
+                                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" color="#E4AE2C"  height="4em" width="1em" xmlns="http://www.w3.org/2000/svg" style="color: rgb(228, 174, 44);"><path d="M463 192H315.9L271.2 58.6C269 52.1 262.9 48 256 48s-13 4.1-15.2 10.6L196.1 192H48c-8.8 0-16 7.2-16 16 0 .9.1 1.9.3 2.7.2 3.5 1.8 7.4 6.7 11.3l120.9 85.2-46.4 134.9c-2.3 6.5 0 13.8 5.5 18 2.9 2.1 5.6 3.9 9 3.9 3.3 0 7.2-1.7 10-3.6l118-84.1 118 84.1c2.8 2 6.7 3.6 10 3.6 3.4 0 6.1-1.7 8.9-3.9 5.6-4.2 7.8-11.4 5.5-18L352 307.2l119.9-86 2.9-2.5c2.6-2.8 5.2-6.6 5.2-10.7 0-8.8-8.2-16-17-16z"></path></svg>
+                                <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" color="#E4AE2C"  height="4em" width="1em" xmlns="http://www.w3.org/2000/svg" style="color: rgb(228, 174, 44);"><path d="M463 192H315.9L271.2 58.6C269 52.1 262.9 48 256 48s-13 4.1-15.2 10.6L196.1 192H48c-8.8 0-16 7.2-16 16 0 .9.1 1.9.3 2.7.2 3.5 1.8 7.4 6.7 11.3l120.9 85.2-46.4 134.9c-2.3 6.5 0 13.8 5.5 18 2.9 2.1 5.6 3.9 9 3.9 3.3 0 7.2-1.7 10-3.6l118-84.1 118 84.1c2.8 2 6.7 3.6 10 3.6 3.4 0 6.1-1.7 8.9-3.9 5.6-4.2 7.8-11.4 5.5-18L352 307.2l119.9-86 2.9-2.5c2.6-2.8 5.2-6.6 5.2-10.7 0-8.8-8.2-16-17-16z"></path></svg>
+                                
+                               
+                            </div>
+                            <div class="customer-heading">
+                                <span >Best Products</span>
+                                <p>Probably the best hair fall control solution out there! My hair fall is reduced in less than 3 months. Love their doctor approach.. i got this kit after taking their doctor consultation &amp; quiz.. on time delivery..amazing packaging!</p>
+                            </div>
+                           
+                            <div class="customer-details">
+                                <p>Meena Jain, Age 31</p>
+                            </div>
+                        </div> 
+                    </div>
+                </div>  
+            </div> 
+        </section>
+     </div>
+</div>
+
+
+<!-- Before After -->
+<div class="AmazingResults">
+    <div><h2>Amazing Results</h2></div>
+    <div class="amazing"><p >Our result speaks for itself</p></div>
+    <div class="bfafcontainer">
+        <section class="bfafproduct"> 
+            <button class="bfafpre-btn"><img src="images/arrow.png" alt="" ></button>
+            <button class="bfafnxt-btn"><img src="images/arrow.png" alt=""></button>
+            <div class="bfafproduct-container">
+                <div class="bfafproduct-card">
+                    <div>
+                        <img class="bfafproduct_image" src="https://cdn.discordapp.com/attachments/945524831842095116/946416981760933968/pic1.png">
+                    </div>
+                </div>
+                <div class="bfafproduct-card">
+                    <div>
+                        <img class="bfafproduct_image" src="https://cdn.discordapp.com/attachments/945524831842095116/946416982012620810/pic2.png">
+                    </div>
+                </div>
+                <div class="bfafproduct-card">
+                    <div>
+                        <img class="bfafproduct_image" src="https://cdn.discordapp.com/attachments/945524831842095116/946416982276857866/pic3.png">
+                    </div>
+                </div>
+                <div class="bfafproduct-card">
+                    <div>
+                        <img class="bfafproduct_image" src="https://cdn.discordapp.com/attachments/945524831842095116/946416982473977887/pic4.png">
+                    </div>
+                </div>
+                <div class="bfafproduct-card">
+                    <div>
+                        <img class="bfafproduct_image" src="https://cdn.discordapp.com/attachments/945524831842095116/946416982742421584/pic5.png">
+                    </div>
+                </div>
+                <div class="bfafproduct-card">
+                    <div>
+                        <img class="bfafproduct_image" src="https://cdn.discordapp.com/attachments/945524831842095116/946416982973104178/pic6.png">
+                    </div>
+                </div>
+                <div class="bfafproduct-card">
+                    <div>
+                        <img class="bfafproduct_image" src="https://cdn.discordapp.com/attachments/945524831842095116/946416983212195840/pic7.png">
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+    </div>
+</div>
+
+<!-- Be BodywiseHealth -->
+
+<div>
+    <section class="bebodyhealth"> 
+        <h3 class="health-category">Be Bodywise Health</h3>
+        <button class="bhpre-btn"><img src="images/arrow.png" alt=""></button>
+        <button class="bhnxt-btn"><img src="images/arrow.png" alt=""></button>
+        <div class="health-container">
+            <div class="health-card">
+                <div class="health-image">
+                    <img src="https://res.cloudinary.com/mosaic-wellness/image/upload/v1608609634/Bodywise/Blogs/Skin-Hydration-min.png" class="health-thumb" alt="">
+                  
+                </div>
+                <div class="health-info">
+                    <div>
+                        <p class="health-details">Skin Hydration | Complete Guide</p>
+                    </div>
+                   
+                    <div class="health-short">
+                        <p class="health-short-description">A sign of healthy skin is hydration and everyone, no matter their skin type,must ensure that skincare routine accommodates for the same. Here's a complete guide on skin hydration.</p>
+                 
+                    </div>
+                    
+                    <div class="learn_btn">
+                        <a href="#">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="health-card">
+                <div class="health-image">
+                    
+                    <img src="https://res.cloudinary.com/mosaic-wellness/image/upload/v1608609634/Bodywise/Blogs/Kokum-Butter---For-Soft-Skin.png" class="health-thumb" alt="">
+                    
+                </div>
+                <div class="health-info">
+                    <div>
+                        <p class="health-details">Kokum Butter | For Soft Skin</p>
+                    </div>
+                   
+                    <div class="health-short">
+                        <p class="health-short-description">How fascininating would it be if something just melted after coming in contact with your skin? Well,one such particular substance that can do that-kokum butter.</p>
+                 
+                    </div>
+                    
+                    <div class="learn_btn">
+                        <a href="#">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="health-card">
+                <div class="health-image">
+               
+                    <img src="https://res.cloudinary.com/mosaic-wellness/image/upload/v1608609634/Bodywise/Blogs/Untitled-design--44--min.png" class="health-thumb" alt="">
+                   
+                </div>
+                <div class="health-info">
+                    <div>
+                        <p class="health-details">Ashwagandha Benefits for Women</p>
+                    </div>
+                   
+                    <div class="health-short">
+                        <p class="health-short-description">Ashwagandha is a safe and effective medicinal plant to treat several medical issues</p>
+                 
+                    </div>
+                    
+                    <div class="learn_btn">
+                        <a href="#">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section>
+</div>
+
+ <!-- refer -->
+
+ <div class="refer-main-container">
+    <div class="refer-container">
+        <div class="refer-row">
+            <div class="refer-details">
+               <div class="refer-details1">
+                    <span>Refer & Earn</span>
+                    <p>Refer your friends to Bodywise and get rewarded</p>
+                    <button class="refer-btn">Refer Now</button>
+               </div>
+            </div>
+            <div class="refer-img">
+             <img src="https://res.cloudinary.com/mosaic-wellness/image/upload/v1602666576/referral-snippet/referralSnippetDesktop.svg">
+            </div>
+           
+         </div>
+    </div>
+</div>
+
+
+<!-- last part -->
+
+<div class="delivery-main-container">
+    <div class="delivery-container">
+        <div class="deliveryInstruction-title">
+            <h2>Delivery Instructions</h2>
+        </div>
+        <div class="delivery-instruction">
+              <div class=delivery-col1>
+                  <div class="delivery-colu1">
+                      <img src="https://res.cloudinary.com/mosaic-wellness/image/upload/v1603435297/staging/Home/Images/cod-icn.png">
+    
+                  </div>
+                  <div class="delivery-colu2">
+                    <h4>COD Available</h4>
+                    <p>Free shipping all over India</p>
+                  </div>
+              </div>
+              <div class="delivery-col2">
+                <div class="delivery-colu1">
+                    <img src="https://res.cloudinary.com/mosaic-wellness/image/upload/v1603435297/staging/Home/Images/coupon-icn.png">
+    
+                </div>
+                <div class="delivery-colu2">
+                    <h4>20% Cashback</h4>
+                    <p>When you place an order and pay online</p>
+                </div>
+              </div>
+        </div>
+        <div class="advetise">
+            <h3 class="advetise-heading">Complete your payment using any of these payment options</h3>
+            <ul class="advetise-ul">
+                <li><img src="https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_200,c_limit/v1603435295/staging/Home/Images/amex-icn.png"></li>
+                <li><img src="https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_200,c_limit/v1603435295/staging/Home/Images/master-icn.png"></li>
+                <li><img src="https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_200,c_limit/v1603435295/staging/Home/Images/visa-icn.png"></li>
+                <li><img src="https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_200,c_limit/v1603435295/staging/Home/Images/bhim-icn.png"></li>
+                <li><img src="https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_200,c_limit/v1603435295/staging/Home/Images/gpay-icn.png"></li>
+                <li><img src="https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_200,c_limit/v1603435295/staging/Home/Images/netbanking-icn.png"></li>
+                <li><img src="https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_200,c_limit/v1603435295/staging/Home/Images/cash-icn.png"></li></ul>
+        </div>
+        
+    </div>
+</div>
+
+    <div class="footer" id="foot_cont"></div>
+</body>
+</html>
+
+<script type="module" src="index.js"></script>
+
+

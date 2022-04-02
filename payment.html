@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/main.css">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(229, 229, 229);;
+        }
+        #pay_div{
+            background-color: white;
+            width: 25%;
+            height: 500px;
+            margin: 50px 0 50px 0;
+            margin: auto;
+            padding-top: 30px;
+            padding-left: 60px;
+            border-radius: 20px;
+            box-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12);
+        }
+        #card_head{
+            color: rgb(235, 150, 51);
+            font-size: 30px;
+            font-weight: 900;
+            margin-bottom: 60px;
+        }
+        #pay_div > p{
+            margin-top: 30px;
+            line-height: 1px;
+            font-weight: 900;
+        }
+        #pay_div > button{
+            margin-top: 50px;
+            width: 100px;
+            height: 40px;
+            border-radius: 20px;
+            border: none;
+            color: white;
+            font-size: 18px;
+            font-weight: 900;
+            background-color: #111d3c;
+        }
+        #pad_pay{
+            padding: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div id="nav_container"></div>
+    <div id="pad_pay">
+
+    </div>
+    <div id="pay_div">
+            <p id="card_head">Fill all the details below</p>
+            <p>CARD NUMBER</p>
+            <input  id="pay_num" type="number" placeholder="4000 3000 2000 1000">
+            <br>
+            <p>NAME</p>
+            <input id="pay_name" type="text" placeholder="Name on Card">
+            <br>
+            <p>CVV</p>
+            <input id="pay_cvv" type="number" placeholder="***">
+            <br>
+            <p>EXPIRE DATE</p>
+            <input id="pay_date" type="date">
+            <br>
+            <button id="payment_process">Pay</button>
+   
+    </div>
+    <div class="footer" id="foot_cont"></div>
+    
+</body>
+<script type="module">
+        import {navbar, footer} from "./components/navbar.js";
+
+
+let navbar_div = document.getElementById("nav_container");
+navbar_div.innerHTML = navbar();
+
+let footer_content = document.getElementById("foot_cont");
+footer_content.innerHTML = footer();
+
+let payment = document.getElementById("payment_process");
+payment.addEventListener("click", pay_process)
+
+
+    function pay_process(){
+        let name=document.querySelector("#pay_name").value
+        let num=document.querySelector("#pay_num").value
+        let cvv=document.querySelector("#pay_cvv").value
+        let date=document.querySelector("#pay_date").value
+        if(name=="" || num=="" || cvv=="" || date=="" || cvv.length!==3 || num.length!==16){
+            alert("Please check if all the details are filled or you have entered incorrect details")
+        }
+        else{
+            alert("Payment was successful")
+            window.location.href='index.html';
+        }
+    }
+
+
+
+</script>

@@ -1,0 +1,165 @@
+body {
+  font-family: Avenir, serif;
+  color: #111d3c;
+}
+#book_appt{
+  padding-top: 60px;
+}
+
+/* div {
+  border: 1px solid black;
+} */
+.giftBannerb {
+  height: 143px;
+  width: 43px;
+  right: 0;
+  position: absolute;
+  z-index: 1;
+}
+
+.steps_containerb {
+  width: 400px;
+  display: flex;
+  justify-content: space-around;
+  margin: 30px auto 10px;
+}
+.step_b {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  align-items: center;
+}
+.step_1ub {
+  background: black;
+  border: 1px solid;
+  padding-top: 4px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 12px;
+}
+.step_bb {
+  font-weight: 700;
+  margin-top: 5px;
+  font-size: 14px;
+  color: grey;
+}
+.step_2ub,
+.step_3ub {
+  background: white;
+  border: 1px solid gray;
+  padding-top: 4px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 12px;
+}
+.col-md-6 {
+  position: relative;
+  width: 480px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.steps_formcontainerb {
+  border-radius: 8px;
+  padding-bottom: 50px;
+  width: 450px;
+}
+.next_buttonb {
+  border-radius: 50px;
+  width: 100%;
+  background-color: black;
+  color: #fff;
+  padding: 10px 20px;
+  letter-spacing: 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+}
+/* .next_buttonb:disabled {
+  opacity: 0.2;
+} */
+.headerquesb {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.headerquesb > div {
+  font-size: 30px;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 25px;
+  letter-spacing: 1.5;
+}
+.steps_optionsb {
+  margin-top: 20px;
+  margin-bottom: 15px;
+  margin-left: 40px;
+  width: 360px;
+  align-items: center;
+}
+.step_optionhairb,
+.step_optionskinb,
+.step_optionpcosb,
+.step_optionweightb,
+.step_optionutib {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-radius: 20px;
+  border: 1px solid grey;
+  color: white;
+  margin-bottom: 6px;
+}
+.step_optionnutritionb{
+  display: flex;
+  align-items: center;
+  width: 360px;
+  padding: 10px;
+  border-radius: 20px;
+  border: 1px solid grey;
+  color: white;
+  margin-bottom: 6px;
+}
+.checkOpthb,
+.checkOptsb,
+.checkOptwb,
+.checkOptpb,
+.checkOptnb,
+.checkOptub {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  height: 16px;
+  width: 16px;
+  margin-left: 5px;
+  border-radius: 50%;
+}
+.titleoptb {
+  font-size: 25px;
+  color: #111d3c;
+  margin-left: 5px;
+  font-family: Avenir, serif;
+}
+.card_containerb {
+  display: flex;
+  margin-left: 30px;
+  margin-top: 15px;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(232, 102, 105, 0.1);
+  width: 336px;
+  height: 105px;
+  border-radius: 16px;
+}
+.cardtextb {
+  height: 66px;
+  width: 175px;
+  font-size: 12px;
+  margin-left: 5px;
+
+  color: #111d3c;
+}

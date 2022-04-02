@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css2?family=Sen&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+#prod_blank_top{
+  padding: 50px;
+}
+
+#prod_buttons {
+  display: flex;
+  justify-content: space-evenly;
+  width: 80%;
+  margin: auto;
+}
+#hair_prod {
+  border: 0px;
+  padding: 5px 30px 5px 30px;
+  border-radius: 2px;
+  background-color: #f0eef2;
+  color: #a47d9f;
+}
+#skin_prod {
+  border: 0px;
+  padding: 5px 30px 5px 30px;
+  border-radius: 2px;
+  background-color: #e8f4ff;
+  color: #1966b8;
+}
+#weight_prod {
+  border: 0px;
+  padding: 5px 30px 5px 30px;
+  border-radius: 2px;
+  background-color: #eaf3f2;
+  color: #00746a;
+}
+#pcos_prod {
+  border: 0px;
+  padding: 5px 30px 5px 30px;
+  border-radius: 2px;
+  background-color: #fdeff0;
+  color: #e96669;
+}
+#feminine_prod {
+  border: 0px;
+  padding: 5px 30px 5px 30px;
+  border-radius: 2px;
+  background-color: #eff4f8;
+  color: #5e9fd2;
+}
+
+#prod_container {
+  width: 50%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 200px);
+  grid-gap: 20px;
+}
+#prod_container > div {
+  border-radius: 15px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+#product_image {
+  width: 100%;
+  border-radius: 15px;
+}
+#star_image {
+  margin: 5px;
+  width: 35%;
+}
+
+#prod_container p {
+  margin: 10px;
+  font-family: "Sen", sans-serif;
+  font-size: 12px;
+}
+
+#prod_container h4 {
+  margin: 5px 5px 5px 10px;
+  font-family: "Sen", sans-serif;
+}
+#prod_container s {
+  margin-top: 6px;
+  font-family: "Sen", sans-serif;
+  font-size: 14px;
+  color: #292929;
+}
+
+#prod_container button {
+  width: 100%;
+  border: 0px;
+  padding: 10px;
+  border-radius: 0px 0px 15px 15px;
+}
+
+#prod_contenets {
+  height: 150px;
+}
+
+#prod_topsection {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px;
+  font-family: "Sen", sans-serif;
+}
+
+#prod_right {
+  display: flex;
+  border-radius: 5px;
+  width: 250px;
+  height: 22px;
+  margin-right: 20px;
+  justify-content: space-around;
+}
+
+.prod_button {
+  background-color: #e8f4ff;
+  color: black;
+  cursor: pointer;
+}
+
+
+/* feeling confused */
+.feeling-main{
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 16px;
+  margin-top:50px;
+  margin-bottom:50px;
+  background-color: rgb(246,246,246);
+}
+.feeling-cont{
+  display: flex;
+  width: 100%;
+}
+.feeling-img{
+ margin-left:12%;
+
+}
+.feeling-img img{
+   margin-top:-2em;
+   width:130%;
+}
+.feeling-content{
+  margin-left:4%;
+}
+.feeling-h{
+     line-height: 25px;
+      letter-spacing: .25px;
+      text-align: left;
+      font-size: 36px;
+      color: #000;
+      font-weight: 500;
+      margin-bottom: 0;
+      display: block;
+}
+.feeling-p{
+margin-bottom: 1rem;
+font-size: 24px;
+color:rgb(118,118,118);
+}
+.feeling-btn{
+background: #000;
+border-radius: 20px;
+align-items: center;
+padding: 18px 80px;
+width: 365px;
+height: 60px;
+border: 1px solid #000;
+width: fit-content;
+}
+.feeling-btn a{
+color: #fff;
+font-weight: 500;
+font-size: 20px;
+line-height: 27px;
+text-align: center;
+letter-spacing: .15px;
+text-decoration: none;
+}

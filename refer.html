@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/refer.css">
+    <link rel="stylesheet" href="./styles/main.css">
+</head>
+<body>
+    <!-- Navbar Section -->
+    <div id="nav_container"></div>
+
+
+    <div>
+        <div id="head">
+            <div id="head1">
+                <div id="head11">
+                    <p id="p1" >Refer & Earn ₹100</p>
+                    <p id="p2">Hey, we know it feels great to be healthy. Pass it on and we’ll give you ₹100 in return</p>
+                    <div id="button1">
+                        <button id="invite" onclick="window.location.href='login.html'">Invite Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav id="nav1">
+            <div id="nav11">Refer & Earn</div>
+            <div id="nav11" style="color: rgb(220,223,206);border-bottom: 0">Your Progress</div>
+        </nav>
+        <div style="margin: 60px 158px;">
+            <div id="low">
+                <div id="low1">
+                    <div id="low11">
+                        <div id="low111">
+                            <p id="p1">Your Earnings</p>
+                            <p id="p2">You're yet to tell your friends about your health & wellness secret!</p>
+                        </div>
+                        <div id="low112">
+                            <span id="span1">₹</span>
+                            <span id="span2">0</span>
+                        </div>
+                    </div>
+                    <div id="low12">
+                        <button onclick="window.location.href='login.html'">Refer Now</button>
+                    </div>
+                </div>
+                <div id="low2">
+                    <div id="low21">
+                        <p>How it works</p>
+                        <div id="low211">
+                            <div>
+                                <div id="num">1</div>
+                                <div>
+                                    <p id="headP">Refer Your Friends</p>
+                                    <p id="headP1" style="font-size: 20px;">We have made it super easy to share, your phone number is your referral code!</p>
+                                </div>
+                            </div>
+                            <div>
+                                <div id="num">2</div>
+                                <div>
+                                    <p id="headP">They Begin Their Wellness Journey</p>
+                                    <p id="headP1" style="font-size: 20px;">Your friends gets ₹100 in their BW Wallet on using the code</p>
+                                </div>
+                            </div>
+                            <div>
+                                <div id="num">3</div>
+                                <div>
+                                    <p id="headP">You Get Rewarded</p>
+                                    <p id="headP1" style="font-size: 20px;">You earn ₹100 in your BW Wallet once they place an order with Bodywise</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="low22">
+                        <p id="low22P1">Terms & Conditions</p>
+                        <div id="low22P" style="margin-top: 14px;display:block">
+                            <p>1. You can refer as many friends you like</p>
+                            <p>2. You get your reward only when your friend places an order</p>
+                            <p>3. Use your reward money for a discount when you place an order and pay online</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="footer" id="foot_cont"></div>
+</body>
+</html>
+<script type="module">
+    import {navbar, footer} from "./components/navbar.js";
+
+
+    let navbar_div = document.getElementById("nav_container");
+    navbar_div.innerHTML = navbar();
+
+    let footer_content = document.getElementById("foot_cont");
+    footer_content.innerHTML = footer();
+
+</script>

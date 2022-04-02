@@ -1,0 +1,291 @@
+body{
+    background-color: rgb(229, 229, 229);;
+}
+#checkout_main{
+    display: flex;
+    padding-top: 7%;
+    width: 75%;
+    margin-left: 10%;
+    height: 1000px;
+}
+#checkout_scroll{
+    width: 65%;
+    margin-top: -30px;
+    height: 100%;
+}
+#checkout_fixed{
+    width: 35%;
+    margin-left: 40px;
+    height: 550px;
+}
+#order_summary_div{
+    width: 100%;
+    border-radius: 20px;
+    margin-top: 10px;
+    background-color: white;
+    box-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12);
+
+}
+#order_btn{
+    display: flex;
+    width: 95%;
+    padding-bottom: 10px;
+    margin-left: 2.5%;
+    height: 90%;
+}
+#address_btn{
+    display: flex;
+    width: 95%;
+    margin-top: 0.5%;
+    margin-left: 2.5%;
+    height: 90%;
+}
+#payment_btn{
+    display: flex;
+    width: 95%;
+    margin-top: 0.5%;
+    margin-left: 2.5%;
+    height: 90%;
+}
+#order_txt{
+    flex: 8.5;
+    display: flex;
+}
+#address_txt{
+    flex: 8.5;
+    display: flex;
+}
+#payment_txt{
+    flex: 8.5;
+    display: flex;
+}
+#order_arrow{
+    flex: 1.5;
+    margin-top: 10px;
+}
+#address_arrow{
+    flex: 1.5;
+    margin-top: 10px;
+}
+#payment_arrow{
+    flex: 1.5;
+    margin-top: 10px;
+}
+#order_1 {
+    border-radius: 21px;
+    background-color: #379f8e;
+    width: 60px;
+    height: 60px;
+    margin-top: 20px;
+    text-align: center;
+    line-height: 8px;
+}
+#payment_1 {
+    border-radius: 21px;
+    background-color: rgb(235, 150, 51);
+    width: 60px;
+    height: 60px;
+    margin-top: 20px;
+    text-align: center;
+    line-height: 8px;
+}
+#address_1 {
+    border-radius: 21px;
+    background-color: rgb(235, 150, 51);
+    width: 60px;
+    height: 60px;
+    margin-top: 20px;
+    text-align: center;
+    line-height: 8px;
+}
+#order_1 > p{
+    font-size: 27px;
+    color: #fff;
+    font-weight: 900;
+}
+#address_1 > p{
+    font-size: 27px;
+    color: #fff;
+    font-weight: 900;
+}
+#payment_1 > p{
+    font-size: 27px;
+    color: #fff;
+    font-weight: 900;
+}
+#order_char{
+    width: 450px;
+    padding-left: 20px;
+}
+#address_char{
+    width: 450px;
+    padding-left: 20px;
+}
+#payment_char{
+    width: 450px;
+    padding-left: 20px;
+}
+#order_char > p{
+    font-size: 24px;
+    font-weight: 900;
+    margin-top: 30px;
+}
+#address_char > p{
+    font-size: 24px;
+    font-weight: 900;
+    margin-top: 30px;
+}
+#payment_char > button > p{
+    font-size: 24px;
+    font-weight: 800;
+    margin-left: -300px;
+    margin-top: 30px;
+}
+#payment_char > button{
+    border: none;
+    width: 500px;
+    background-color: white;
+}
+#address_div{
+    margin-top: 20px;
+    width: 100%;
+    height: 40%;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12);
+
+}
+#payment_div{
+    margin-top: 20px;
+    width: 100%;
+    height: 10%;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12);
+
+}
+#discount{
+    border-radius: 12px;
+    width: 100%;
+    margin-top: -20px;
+    height: 300px;
+    background-color: white;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    
+}
+#p_summary{
+    border-radius: 12px;
+    background-color: white;
+    width: 100%;
+    margin-top: 20px;
+    height: 300px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+#discount > div > p{
+    font-size: 24px;
+    font-weight: 900;
+    margin-left: 15px;
+    padding-top: 15px;
+}
+#p_summary > p{
+    font-size: 24px;
+    font-weight: 900;
+    padding-top: 30px;
+    margin-left: 25px;
+}
+#order_show{
+    height: 400px;
+    width: 600px;
+    margin-left: 15px;
+}  
+#discount_div{
+    height: 200px;
+    width: 100%;
+}
+.check_main{
+    display: flex;
+    margin-top: 40px;
+    margin-left: 10px;
+    justify-content: space-around;
+}
+.check_btn{
+    width: 100%;
+}
+.check_coupon{
+    width: 250px;
+    height: 39px;
+    font-size: 14px;
+    border-radius: 10px;     
+    border: 1px solid grey;
+    margin-left: 10px;
+}
+#chk_btn{
+    margin-left: -50px;
+    height: 43px;
+    width: 100px;
+    padding-bottom: 3px;
+    border-radius: 14px;
+    color: white;
+    font-size: 14px;
+    font-weight: 900;
+    border: none;
+    background-color: #111d3c;
+}
+.check_char{
+    height: 30px;
+    font-size: 20px;
+    margin-left: -70px;
+    margin-top: -20px;
+}
+.check_disc{
+    margin-top: -20px;
+    width: 50px;
+    margin-left: -100px;
+    font-size: 20px;
+}
+.check_mainp{
+    display: flex;
+    font-size: 20px;
+    padding-left: 10px;
+}
+.check_total{
+    margin-left: 10px;
+}
+#discount{
+    position: fixed;
+    width: 25%;
+}
+#address_char > p{
+    font-size: 24px;
+    font-weight: 900;
+    margin-top: 30px;
+}
+#address_1 {
+    border-radius: 21px;
+    background-color: rgb(235, 150, 51);
+    width: 60px;
+    margin-left: 15px;
+    height: 60px;
+    margin-top: 20px;
+    text-align: center;
+    line-height: 8px;
+}
+#address_main{
+    width: 100%;
+    height: 300px;
+}
+#address_flex{
+    display: flex;
+}
+.address_css{
+    width: 270px;
+    border-bottom: 1px solid grey;
+    border-top: white;
+    border-left: white;
+    border-right: white ;
+    height: 40px;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+

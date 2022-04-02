@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Helth Assessment</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="./styles/assessment.css">
+        <link rel="stylesheet" href="./styles/main.css">
+</head>
+
+<body>
+  <!-- Navbar Section -->
+  <div id="nav_container"></div>
+
+
+
+
+    <div class="quiz">
+      <form name="quiz"></form>
+      <p id="question">Let the games begin! What troubles you the most?</p>
+      <p class="q1"><input type="radio" name="q"  value="hair" >Hair & Scalp <img src="https://res.cloudinary.com/mosaic-wellness/image/upload/v1607771746/Man%20Matters/Hair_new.svg" alt=""></p>
+      <p class="q1"><input type="radio" name="q"  value="hair" >Skin <img src="https://res.cloudinary.com/mosaic-wellness/image/upload/v1607771821/Man%20Matters/Skin_new2.svg" alt=""></p>
+      <p class="q1"><input type="radio" name="q"  value="hair" >Nutrition & Weight issues <img src="https://res.cloudinary.com/mosaic-wellness/image/upload/v1607771820/Man%20Matters/Weight_new2.svg" alt=""></p>
+      <p class="q1"><input type="radio" name="q"  value="hair" >Intimate area issues <img src="https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_50,c_limit/v1622269341/Man%20Matters/UTI_1.svg" alt=""></p>
+      <p class="q1"><input type="radio" name="q"  value="hair" >PCOS <img src="https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_50,c_limit/v1622269341/Man%20Matters/PCOS_1.svg" alt=""></p>
+      <p id="back_next">
+      <button type="button" class="btn btn-default btn-sm">
+        <span class="glyphicon glyphicon-chevron-left"></span> <a href="index.html">Back</a> 
+      </button> 
+      <button type="button" class="btn btn-default btn-sm" onclick="window.location.href='basic_details.html'">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+      </button> </p>
+ 
+    </div>
+    <div class="imga">
+      <img  src="https://res.cloudinary.com/mosaic-wellness/image/upload/f_auto,w_800,c_limit/v1612546396/how_it_works_BW-01.jpg" alt="">
+    </div>
+
+    <div class="footer" id="foot_cont"></div>
+</body>
+</html>
+<script type="module">
+
+    import {navbar, footer} from "./components/navbar.js";
+
+
+    let navbar_div = document.getElementById("nav_container");
+    navbar_div.innerHTML = navbar();
+
+    let footer_content = document.getElementById("foot_cont");
+    footer_content.innerHTML = footer();
+
+</script>

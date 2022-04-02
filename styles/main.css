@@ -1,0 +1,233 @@
+
+/* Navbar section CSS */
+
+body {
+  margin: 0%;
+}
+
+#nav_container {
+  display: flex;
+  background-color: black;
+  width: 100%;
+  height: 60px;
+  position: fixed;
+  justify-content: space-between;
+  z-index: 9;
+}
+#nav_mid{
+  display: flex;
+  width: 70%;
+  margin-left: 3%;
+}
+#nav_right{
+  display: flex;
+  width: 15%;
+  margin-right: 3%;
+}
+#nav_be {
+  margin-right: -5px;
+  font-size: 10px;
+  color: white;
+}
+#nav_tm {
+  margin-left: -5px;
+  font-size: 5px;
+  color: white;
+}
+#nav_body {
+  width: 15%;
+}
+#nav_mid > div{
+  width: 20%;
+  text-align: center;
+}
+#nav_mid > :nth-child(2){
+  margin-left: 3%;
+}
+
+#nav_txt {
+  font-size: 100%;
+  padding-top: 2%;
+}
+#nav_body > button{
+  width: 80%;
+  margin-top: 7%;
+  margin-left: 15%;
+  background-color: black;
+  border: none;
+}
+#nav_body > button > img{
+  width: 100%;
+}
+#nav_mid > div > a{
+  color: white;
+  text-decoration: none;
+}
+#nav_opt {
+  color: white;
+  font-size: 90%;
+  margin-top: 10%;
+  border: none;
+  position: relative;
+  background-color: black;
+}
+#nav_right > div{
+  width: 25%;
+  padding-top: 7%;
+  padding-left: 2%;
+}
+#nav_search > button {
+  background-color: black;
+  border: none;
+}
+#nav_search > button > img {
+  width: 75%;
+  height: 75%;
+}
+#nav_btn > button {
+  background-color: black;
+  border: none;
+  width: 100%;
+}
+#nav_btn > button > img {
+  width: 75%;
+  height: 75%;
+}
+#nav_btn > button > a > img {
+  width: 75%;
+  height: 75%;
+}
+@media only screen and (min-width: 0px) and (max-width: 320px) {
+  #nav_container {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 321px) and (max-width: 720px) {
+  #nav_container {
+    width: 100%;
+  }
+}
+
+
+/* Footer CSS */
+
+.footer {
+  background-color: rgb(0, 0, 0);
+  padding-top: 30px;
+  padding-right: 30px;
+  padding-bottom: 90px;
+  padding-left: 30px;
+  text-align: center;
+}
+.footer_container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.footer .footer-section {
+  display: inline-block;
+}
+.image {
+  max-width: 100%;
+  vertical-align: middle;
+  border-style: none;
+}
+.footer .footer-section .details ul {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0 0;
+}
+.footer .footer-section .details ul li {
+  margin: 0 15px;
+  list-style: disc;
+  color: #fff;
+  padding: 0 15px;
+}
+.footer .footer-section .details ul li:first-child {
+  list-style: none;
+}
+.footer .footer-section ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.footer .footer-section ul li {
+  margin: 0 0 10px;
+}
+.ul {
+  margin-bottom: 1px;
+}
+.li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+.footer .footer-section ul a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  display: block;
+}
+.footer .footer-section .contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px 0;
+  padding: 30px 0;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+}
+.footer .footer-section .contact ul {
+  width: 100%;
+}
+.footer .footer-section .contact ul li:first-child {
+  margin: 0 0 20px;
+}
+.footer .footer-section .contact ul li a {
+  font-size: 18px;
+}
+
+.footer .footer-section .adve {
+  width: 100%;
+}
+.footer .footer-section .adve .adve1 {
+  width: 100%;
+}
+.footer .footer-section .adve .adve1 ul {
+  display: flex;
+  justify-content: center;
+}
+.footer .footer-section .adve .adve1 ul li {
+  margin: 0 30px;
+}
+.footer .footer-section .adve .side {
+  display: flex;
+  margin: 30px 0 0;
+  justify-content: center;
+}
+.footer .footer-section .adve .side li {
+  margin: 0 15px;
+}
+.footer .footer-section .adve p {
+  color: #fff;
+  margin: 30px 0 0;
+}
+@media only screen and (min-width: 0px) and (max-width: 320px) {
+  .footer {
+    width: 100%;
+    padding: 30px 10px 80px;
+  }
+}
+@media only screen and (min-width: 321px) and (max-width: 720px) {
+  .footer {
+    width: 100%;
+    padding: 30px 10px 80px;
+  }
+  .footer .footer-section {
+    width: 100%;
+  }
+  .footer .footer-section .contact ul li a {
+    font-size: 14px;
+  }
+}

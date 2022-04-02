@@ -1,0 +1,77 @@
+body{
+    background-color: transparent;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    /* height: 400px; */
+    pointer-events: auto;
+    background-clip: padding-box;
+    border: 1px solid rgba(250, 244, 244, 0.2);
+    outline: 0;
+    color: white;
+    margin: auto;
+
+}
+#upcontainer{
+    background: #353e5f;
+    padding: 30px;
+}
+#loghead{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 17px 0;
+    font-size: 15px;
+    font-weight: 700;
+    border-bottom: 1px solid #fff;
+}
+#logheadleft{
+    color: white;
+    /* pointer-events: auto; */
+    display: block;
+    box-sizing: border-box;
+    font-size: 15px;
+    font-weight: 700;
+    pointer-events: auto;
+    text-align: left;
+    box-sizing: border-box;
+}
+#logheadright{
+    cursor: pointer;
+    color: white;
+    display: block;
+    font-size: 15px;
+    font-weight: 700;
+}
+#logbody{
+    padding-top: 30px;
+    cursor: pointer;
+    display: block;
+    color: white;
+}
+.input{
+    margin-bottom: 11px;
+    width: 100%;
+    font-size: 14px;
+    background-color: white;
+    font-weight: 500;
+    color: #505050;
+    border: none;
+    padding: 14px 13px 10px 5px;
+    border: none;
+}
+#button{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    font-size: 14px;
+    padding: 15px;
+    width: 100%;
+}
+h5{
+    font-size: 14px;
+    padding: 3px;
+    color: red;
+}

@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=", initial-scale=1.0>
+    <link rel="stylesheet" href="./styles/checkout.css">
+    <link rel="stylesheet" href="./styles/main.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="nav_container"></div>
+    <div id="checkout_main">
+        <div id="checkout_scroll">
+            <div id="order_summary_div">
+                <div id="order_btn" role="button">
+                    <div id="order_txt">
+                        <div id="order_1">
+                            <p>1</p>
+                        </div>
+                        <div id="order_char">
+                            <p>Order Summary</p>
+                        </div>
+                    </div>
+                    <div id="order_arrow">
+                    </div>
+                </div>
+                <div id="order_append">
+
+                </div>
+            </div>
+            <!--<div id="order_show" style="border: 1px solid red">
+                <div id="order_append">
+
+                </div>
+            </div>-->
+            <div id="address_div">
+                <div id="aaddress_btn" role="button">
+                    <div id="address_txt">
+                        <div id="address_1">
+                            <p>2</p>
+                        </div>
+                        <div id="address_char">
+                            <p>Address</p>
+                        </div>
+                    </div>
+                    <div id="address_arrow">
+
+                    </div>
+                </div> 
+                <div id="address_main">
+                    <div>
+                        <input class="address_css" type="text" placeholder="Address" style="color: grey;">
+                    </div>
+                    <div>
+                        <input class="address_css" type="text" placeholder="Pincode" style="color: grey;">
+                    </div>
+                    <div id="address_flex">
+                        <div>
+                            <input class="address_css" type="text" placeholder="City">
+                        </div>
+                        <div>
+                            <input class="address_css" type="text" placeholder="State">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="payment_div">
+                <div id="payment_btn" role="button">
+                    <div id="payment_txt">
+                        <div id="payment_1">
+                            <p>3</p>
+                        </div>
+                        <div id="payment_char">
+                            <button onclick="window.location.href='payment.html'"><p>Proceed to pay</p></button>
+                        </div>
+                    </div>
+                    <div id="payment_arrow">
+
+                    </div>
+                </div>    
+            </div>
+        </div>
+        <div id="checkout_fixed">
+            <div id="discount">
+                <div>
+                    <p>Apply Discount</p>
+                </div>
+                <div id="discount_div">
+                    <div>
+                        <div class="check_btn">
+                            <input class="check_coupon" type="text">
+                            <button id="chk_btn">Apply</button>
+                        </div>
+                        <div class="check_main">
+                            <p class="check_char" style="color: #379f8e;">Coupon Discount:</p>
+                            <p class="check_disc" style="color :#379f8e; ">- ₹0</p>
+                        </div>
+                        <hr>
+                        <div class="check_mainp">
+                            <p style="color: #379f8e">Total:</p>
+                            <p class="check_total" style="color: #379f8e"></p>
+                        </div>
+                        </div>
+                    </div>        
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style="padding: 150px;"></div>
+    <div class="footer" id="foot_cont"></div>
+</body>
+</html>
+<script type="module">
+    import {navbar, footer} from "./components/navbar.js";
+
+
+let navbar_div = document.getElementById("nav_container");
+navbar_div.innerHTML = navbar();
+
+let footer_content = document.getElementById("foot_cont");
+footer_content.innerHTML = footer();
+
+
+
+let arr = JSON.parse(localStorage.getItem("cart_data")) || []
+arr.map(function (el) {
+    let div = document.createElement("div")
+    div.style.display="flex"
+    div.style.height="50px"
+    div.style.width="400px"
+    div.style.justifyContent="space-between"
+
+    let p1 = document.createElement("p")
+    p1.textContent=el.heading;
+    p1.style.marginLeft="10px"
+
+    let p2 = document.createElement("p")
+    p2.textContent=el.price;
+    p2.style.marginRight="20px"
+    p2.style.fontWeight="900"
+    p2.style.color="rgb(235,150,51)";
+
+    div.append(p1,p2)
+
+    document.querySelector("#order_append").append(div)
+
+});
+
+
+    let sum = 0
+    for(let i=0 ; i<arr.length ; i++){
+        sum = sum + arr[i].price
+    }
+    var total_div = document.getElementsByClassName("check_total");
+    for(let j = 0; j<total_div.length; j++){
+        total_div[j].innerHTML = sum;
+    }
+
+    var promo = document.getElementById("chk_btn");
+    promo.addEventListener("click", function() {
+        clicked();
+    })
+    
+    function clicked(){
+        let val = document.querySelector(".check_coupon").value
+        if(val=="masaimasai"){
+            alert("Coupon Code Applied")
+            let res = sum*0.2
+            document.querySelector(".check_disc").textContent = res;
+            let total = sum - res ;
+            document.querySelector(".check_total").textContent=total;
+        }
+        else{ 
+           alert("Invalid code")
+           let res = 0
+           document.querySelector(".check_disc").textContent = 0;
+        }
+    }
+
+
+
+</script>
