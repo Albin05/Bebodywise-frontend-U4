@@ -22,7 +22,7 @@ let Login=async ()=>{
         console.log(login_data)
         let login_jsondata=JSON.stringify(login_data);
         console.log(login_jsondata);
-        let logres=await fetch("http://localhost:5000/login",{
+        let logres=await fetch("http://ec2-3-95-58-230.compute-1.amazonaws.com:5000/login",{
         method:'POST',
         body:login_jsondata,
         headers:{
