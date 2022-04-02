@@ -10,7 +10,11 @@
 //         window.location.href = "index.html";
 //     }
 
-
+document.getElementById("button").addEventListener("click", function(event){
+    event.preventDefault()
+    Register()
+    
+})
 
 
     async function Register() {
@@ -34,7 +38,13 @@
             });
             let data=await res.json();
             console.log(data)
-            window.location.href="login.html"
+            if(data.message=="Mobile No. already exists"){
+                alert("Please use another phone number")
+            }
+            else if(data.token){
+                window.location.href = "login.html"
+            }
+            
         } 
         catch (error) {
           console.log("err: ",error);
