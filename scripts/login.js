@@ -22,7 +22,7 @@ let Login=async ()=>{
         console.log(login_data)
         let login_jsondata=JSON.stringify(login_data);
         console.log(login_jsondata);
-        let logres=await fetch("http://ec2-35-175-148-113.compute-1.amazonaws.com:5000/login",{
+        let logres=await fetch("https://bebodywise-api-backend.herokuapp.com/login",{
         method:'POST',
         body:login_jsondata,
         headers:{

@@ -13,7 +13,7 @@ footer_content.innerHTML = footer();
 
 let parent = document.getElementById("prod_container");
 
-let url = "http://ec2-35-175-148-113.compute-1.amazonaws.com:5000/hair";
+let url = "https://bebodywise-api-backend.herokuapp.com/hair";
 
 const data = await getData(url);
 
@@ -58,7 +58,7 @@ async function hairprod(){
     
     parent.innerHTML = "";
 
-    let url = "http://ec2-35-175-148-113.compute-1.amazonaws.com:5000/hair";
+    let url = "https://bebodywise-api-backend.herokuapp.com/hair";
 
     let data = await getData(url);
 
@@ -81,7 +81,7 @@ async function skinprod(){
 
     parent.innerHTML = "";
 
-    let url = "http://ec2-35-175-148-113.compute-1.amazonaws.com:5000/skin";
+    let url = "https://bebodywise-api-backend.herokuapp.com/skin";
 
     let data = await getData(url);
 
@@ -102,7 +102,7 @@ async function weightprod(){
 
     parent.innerHTML = "";
 
-    let url = "http://ec2-35-175-148-113.compute-1.amazonaws.com:5000/weight";
+    let url = "https://bebodywise-api-backend.herokuapp.com/weight";
 
     let data = await getData(url);
 
@@ -123,7 +123,7 @@ async function pcosprod(){
 
     parent.innerHTML = "";
 
-    let url = "http://ec2-35-175-148-113.compute-1.amazonaws.com:5000/pcos";
+    let url = "https://bebodywise-api-backend.herokuapp.com/pcos";
 
     let data = await getData(url);
 
@@ -144,7 +144,7 @@ async function feminineprod(){
 
     parent.innerHTML = "";
 
-    let url = "http://ec2-35-175-148-113.compute-1.amazonaws.com:5000/femcare";
+    let url = "https://bebodywise-api-backend.herokuapp.com/femcare";
 
     let data = await getData(url);
 
