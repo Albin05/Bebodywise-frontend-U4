@@ -5,7 +5,6 @@ body{
     display: flex;
     flex-direction: column;
     width: 450px;
-    /* height: 400px; */
     pointer-events: auto;
     background-clip: padding-box;
     border: 1px solid rgba(250, 244, 244, 0.2);
@@ -29,7 +28,6 @@ body{
 }
 #logheadleft{
     color: white;
-    /* pointer-events: auto; */
     display: block;
     box-sizing: border-box;
     font-size: 15px;
