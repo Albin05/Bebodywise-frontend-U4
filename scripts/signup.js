@@ -3,7 +3,7 @@ document.getElementById("button").addEventListener("click", function(event){
     event.preventDefault()
     let pass = document.getElementById("password").value;
     if(pass.length < 8 ){
-        alert("Password must have 8 characters")
+        alert("Password must have 8 characters")  //length of password should be atleast 8
     }else{
         Register()
     }
@@ -32,7 +32,6 @@ document.getElementById("button").addEventListener("click", function(event){
                 }
             });
             let data=await res.json();
-            console.log(data)
             if(data.message=="Mobile No. already exists"){
                 alert("Please use another phone number")
             }

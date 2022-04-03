@@ -1,13 +1,12 @@
 function submit(){
     var input = document.querySelector("#input").value;
-
+// getting the data from form
     if(input===""){
         document.getElementById("res").textContent="Please Enter Mobile Number";
     }else if(input.length>10 || input.length<10){
         document.getElementById("res").textContent="Please Enter Valid Number";
     }else{
-        Login();
-        // window.location.href="otp.html"
+        Login(); 
     }
 }
 
@@ -19,9 +18,7 @@ let Login=async ()=>{
             mobile:document.getElementById("input").value,  
             password:document.getElementById("password").value, 
         }
-        console.log(login_data)
         let login_jsondata=JSON.stringify(login_data);
-        console.log(login_jsondata);
         let logres=await fetch("https://bebodywise-api-backend.herokuapp.com/login",{
         method:'POST',
         body:login_jsondata,
@@ -30,7 +27,6 @@ let Login=async ()=>{
             }
         });
         let data=await logres.json();
-        console.log(data)
        if(data.message=="Mobile No. not Registered "){
            alert("Please signup")
            window.location.href="signup.html"
@@ -42,8 +38,6 @@ let Login=async ()=>{
            localStorage.setItem("User_token", JSON.stringify(data.token));
            window.location.href = "index.html"
        }
-        // console.log(login_data.mobile,data.token)
-        // getData(login_data.mobile,data.token);
     } catch (error) {
         console.log("err",error.message);
     }
