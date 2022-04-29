@@ -15,7 +15,7 @@ You can open the index.html file and start browsing the website.
 
 We deployed the front-end on Netlify.
 
-Functionalities such as add to cart, checkout, login & signup are added. The products data is fetched from an API we created we created by ourselves.
+Functionalities such as add to cart, checkout, login & signup are added. The products data is fetched from an API we created by ourselves.
 
 We have also use bootstrap to implement the sliders on the homepage.
 
