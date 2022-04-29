@@ -1,4 +1,5 @@
 ## Be-bodywise
+![This is an image](bebodywise.gif)
 
 ## About
 
