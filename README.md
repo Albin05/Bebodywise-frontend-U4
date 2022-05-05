@@ -19,13 +19,22 @@ Functionalities such as add to cart, checkout, login & signup are added. The pro
 
 We have also use bootstrap to implement the sliders on the homepage.
 
+## User flow of the website
+
+* First the user lands on the home page, where the user can read more about the products and services which are provided.
+* Then the user is been directed to the products page, On the products page there are different categories where the user can add the required products to the cart.
+* In the cart page the user can apply a promo code and get a discount on the products which he wants to purchase.
+* Before moving to the checkout page the user has to get authenticated and if the user has not logged in or signed in he is directed to the respective page. where he has to submit his credentials to login to the website.
+* After that the user is redirected to the checkout page where he can apply a promo code and to fill his billing and shipping address.
+* Then the user is directed to the payment gateway to complete the payment process.
+
 
 ## Live 
 
 https://bebodywisediversityclone.netlify.app/index.html
 
 
-## Reference Images
+##  Some Reference Images
 
 ![Alt text](images/homepagescreenshot.png?raw=true "Optional Title")
 
